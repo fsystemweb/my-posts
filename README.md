@@ -35,17 +35,19 @@ src/
 │   ├── page.tsx         # Server component — reads JSON, renders feed
 │   └── globals.css      # Design system & styles
 ├── components/
-│   ├── Header.tsx       # Sticky header with social links
+│   ├── Header.tsx       # Sticky header with social links (reads from personal_data.json)
 │   ├── PostCard.tsx     # Post card with context parsing
 │   └── PostFeed.tsx     # Infinite scroll feed (client component)
 └── types/
     └── post.ts          # Post type definition
 public/
-└── my_posts.json        # Static posts data
+├── my_posts.json        # Static posts data
+└── personal_data.json   # Personal profile data
 ```
 
-## Data Format
+## Data Sources
 
+### Posts Data
 Posts are loaded from `public/my_posts.json`. Each post follows this shape:
 
 ```json
@@ -55,6 +57,20 @@ Posts are loaded from `public/my_posts.json`. Each post follows this shape:
   "context": "Post text with\nnewlines and hashtag\n#tags",
   "images": ["https://..."],
   "attachments": ["https://..."]
+}
+```
+
+### Personal Data
+Profile information (name, role, links) is loaded from `public/personal_data.json`. This allows for easy updates to personal details without changing code.
+
+```json
+{
+  "initial": "F",
+  "name": "Facundo",
+  "role": "AI & Software Engineer",
+  "github": "https://...",
+  "portfolio": "https://...",
+  "linkedin": "https://..."
 }
 ```
 
