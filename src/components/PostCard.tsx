@@ -120,6 +120,16 @@ function parseHashtags(text: string, keyPrefix: string): React.ReactNode[] {
     return parts.length > 0 ? parts : [text];
 }
 
+/** Detect whether a LinkedIn image URL is a small thumbnail */
+function isSmallImage(url: string): boolean {
+    return (
+        /shrink_160/.test(url) ||
+        /shrink_20/.test(url) ||
+        /company-logo_100_100/.test(url) ||
+        /ugc-proxy-shrink_160/.test(url)
+    );
+}
+
 function getDomain(url: string): string {
     try {
         const u = new URL(url);
@@ -153,20 +163,27 @@ export default function PostCard({ post, index }: PostCardProps) {
             {/* Images */}
             {post.images && post.images.length > 0 && (
                 <div className="post-images">
-                    {post.images.map((src, idx) => (
-                        <div
-                            key={idx}
-                            className={`post-image-wrapper ${post.images.length === 1 ? "single" : ""}`}
-                        >
-                            {/* eslint-disable-next-line @next/next/no-img-element */}
-                            <img
-                                src={src}
-                                alt={`Post image ${idx + 1}`}
-                                className="post-image"
-                                loading="lazy"
-                            />
-                        </div>
-                    ))}
+                    {post.images.map((src, idx) => {
+                        const isSmall = isSmallImage(src);
+                        return (
+                            <div
+                                key={idx}
+                                className={
+                                    isSmall
+                                        ? "post-image-small-wrapper"
+                                        : `post-image-wrapper ${post.images.length === 1 ? "single" : ""}`
+                                }
+                            >
+                                {/* eslint-disable-next-line @next/next/no-img-element */}
+                                <img
+                                    src={src}
+                                    alt={`Post image ${idx + 1}`}
+                                    className={isSmall ? "post-image-small" : "post-image"}
+                                    loading="lazy"
+                                />
+                            </div>
+                        );
+                    })}
                 </div>
             )}
 
