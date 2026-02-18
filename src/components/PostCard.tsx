@@ -171,10 +171,10 @@ export default function PostCard({ post, index }: PostCardProps) {
             )}
 
             {/* Attachments */}
-            {post.attachments && post.attachments.length > 0 && (
+            {post.attachments && post.attachments.filter(url => !url.includes("lnkd.in") && !url.includes("linkedin.com")).length > 0 && (
                 <div className="post-attachments">
                     <div className="post-attachments-label">Links</div>
-                    {post.attachments.map((url, idx) => (
+                    {post.attachments.filter(url => !url.includes("lnkd.in") && !url.includes("linkedin.com")).map((url, idx) => (
                         <a
                             key={idx}
                             href={url}
