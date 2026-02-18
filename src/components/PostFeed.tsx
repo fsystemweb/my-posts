@@ -43,9 +43,9 @@ export default function PostFeed({ posts }: PostFeedProps) {
 
     return (
         <div>
-            <div className="feed-header">
-                <h1 className="feed-title">Posts</h1>
-                <p className="feed-count">{posts.length} posts total</p>
+            <div className="mb-7 text-center">
+                <h1 className="text-2xl font-bold text-dark tracking-tight">Posts</h1>
+                <p className="text-[0.82rem] text-text-muted mt-1">{posts.length} posts total</p>
             </div>
 
             <div>
@@ -55,18 +55,18 @@ export default function PostFeed({ posts }: PostFeedProps) {
             </div>
 
             {/* Sentinel for IntersectionObserver */}
-            <div ref={sentinelRef} className="sentinel" />
+            <div ref={sentinelRef} className="h-px" />
 
             {isLoading && (
-                <div className="loading-indicator">
-                    <div className="spinner" />
+                <div className="flex justify-center items-center gap-2 p-8 text-text-muted text-sm">
+                    <div className="w-5 h-5 border-2 border-border border-t-accent rounded-full animate-spin" />
                     <span>Loading more posts…</span>
                 </div>
             )}
 
             {!hasMore && posts.length > 0 && (
-                <div className="end-message">
-                    <span>You&apos;ve seen all {posts.length} posts 🎉</span>
+                <div className="text-center p-8 text-text-muted text-[0.82rem]">
+                    <span className="inline-block px-4 py-[0.4rem] bg-card border border-border rounded-full">You&apos;ve seen all {posts.length} posts 🎉</span>
                 </div>
             )}
         </div>

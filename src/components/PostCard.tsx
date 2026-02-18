@@ -24,7 +24,7 @@ function parseContext(text: string): React.ReactNode[] {
                 nodes.push(
                     <span key={`ht-${i}`} style={{ display: "inline-flex", flexWrap: "wrap", gap: "0.4rem", marginRight: "0.2rem" }}>
                         {tags.map((tag, ti) => (
-                            <span key={ti} className="post-hashtag">{tag}</span>
+                            <span key={ti} className="inline-block text-accent-dark font-semibold text-[0.85em] no-underline transition-colors duration-200 hover:text-accent hover:underline">{tag}</span>
                         ))}
                     </span>
                 );
@@ -82,7 +82,7 @@ function parseInline(text: string): React.ReactNode[] {
                 href={url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="post-url"
+                className="text-accent-dark font-medium text-[0.85em] break-all no-underline border-b border-transparent transition-all duration-200 hover:text-accent hover:border-accent"
             >
                 {url}
             </a>
@@ -108,7 +108,7 @@ function parseHashtags(text: string, keyPrefix: string): React.ReactNode[] {
             parts.push(text.slice(lastIndex, match.index));
         }
         parts.push(
-            <span key={`${keyPrefix}-hash-${match.index}`} className="post-hashtag">
+            <span key={`${keyPrefix}-hash-${match.index}`} className="inline-block text-accent-dark font-semibold text-[0.85em] no-underline transition-colors duration-200 hover:text-accent hover:underline">
                 {match[0]}
             </span>
         );
@@ -154,26 +154,26 @@ export default function PostCard({ post, index }: PostCardProps) {
                     onClose={() => setSelectedImage(null)}
                 />
             )}
-            <article className="post-card" style={{ animationDelay: animDelay }}>
+            <article className="bg-card rounded shadow-md border border-border mb-5 overflow-hidden transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-[#492828]/15 animate-[cardIn_0.35s_ease_both]" style={{ animationDelay: animDelay }}>
                 {/* Card Header */}
-                <div className="post-card-header">
-                    <div className="post-avatar">F</div>
+                <div className="flex items-center gap-3 p-4 pb-3">
+                    <div className="w-[42px] h-[42px] rounded-full bg-gradient-to-br from-accent to-accent-dark flex items-center justify-center font-bold text-base text-white shrink-0">F</div>
                     <div>
-                        <div className="post-author">{post.author}</div>
-                        <div className="post-meta">LinkedIn Post</div>
+                        <div className="font-semibold text-[0.95rem] text-dark">{post.author}</div>
+                        <div className="text-xs text-text-muted mt-[1px]">LinkedIn Post</div>
                     </div>
                 </div>
 
                 {/* Context */}
                 {post.context && (
-                    <div className="post-context">
+                    <div className="px-5 pb-4 text-[0.9rem] text-text leading-[1.7]">
                         {parseContext(post.context)}
                     </div>
                 )}
 
                 {/* Images */}
                 {post.images && post.images.length > 0 && (
-                    <div className="post-images">
+                    <div className="px-5 pb-4 flex gap-2 flex-wrap">
                         {post.images.map((src, idx) => {
                             const isSmall = isSmallImage(src);
                             return (
@@ -181,8 +181,8 @@ export default function PostCard({ post, index }: PostCardProps) {
                                     key={idx}
                                     className={
                                         isSmall
-                                            ? "post-image-small-wrapper"
-                                            : `post-image-wrapper ${post.images.length === 1 ? "single" : ""}`
+                                            ? "flex-none w-[190px] h-[190px] rounded-sm overflow-hidden bg-[#f0f0f0] border border-border group"
+                                            : `flex-1 min-w-[120px] max-w-full rounded-sm overflow-hidden bg-[#ddd] aspect-video group ${post.images.length === 1 ? "flex-none w-full" : ""}`
                                     }
                                     onClick={() => !isSmall && setSelectedImage(src)}
                                     style={!isSmall ? { cursor: "zoom-in" } : undefined}
@@ -191,7 +191,7 @@ export default function PostCard({ post, index }: PostCardProps) {
                                     <img
                                         src={src}
                                         alt={`Post image ${idx + 1}`}
-                                        className={isSmall ? "post-image-small" : "post-image"}
+                                        className={isSmall ? "w-full h-full object-contain p-1 bg-white transition-transform duration-300 group-hover:scale-105" : "w-full h-full object-cover block transition-transform duration-300 group-hover:scale-[1.02]"}
                                         loading="lazy"
                                     />
                                 </div>
@@ -202,17 +202,17 @@ export default function PostCard({ post, index }: PostCardProps) {
 
                 {/* Attachments */}
                 {post.attachments && post.attachments.filter(url => !url.includes("lnkd.in") && !url.includes("linkedin.com")).length > 0 && (
-                    <div className="post-attachments">
-                        <div className="post-attachments-label">Links</div>
+                    <div className="px-5 pb-4 pt-3 border-t border-border flex flex-col gap-[0.45rem]">
+                        <div className="text-[0.72rem] font-semibold uppercase tracking-wider text-text-muted mb-[0.15rem]">Links</div>
                         {post.attachments.filter(url => !url.includes("lnkd.in") && !url.includes("linkedin.com")).map((url, idx) => (
                             <a
                                 key={idx}
                                 href={url}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="post-attachment-link"
+                                className="flex items-center gap-2 px-3 py-2 bg-accent/10 border border-accent/20 rounded-sm no-underline text-accent-dark text-sm font-medium break-all transition-all duration-200 hover:bg-accent/20 hover:border-accent hover:translate-x-0.5"
                             >
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" className="w-[13px] h-[13px] shrink-0 opacity-70">
                                     <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6" />
                                     <polyline points="15 3 21 3 21 9" />
                                     <line x1="10" y1="14" x2="21" y2="3" />

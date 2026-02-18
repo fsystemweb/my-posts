@@ -16,7 +16,7 @@ export default async function HomePage() {
   return (
     <>
       <Header />
-      <main className="main">
+      <main className="max-w-[620px] mx-auto pt-8 px-4 pb-16 sm:px-6 md:max-w-[720px] md:pt-7 md:px-6">
         <PostFeed posts={posts} />
       </main>
     </>
