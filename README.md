@@ -67,7 +67,7 @@ Profile information (name, role, links) is loaded from `public/personal_data.jso
 {
   "initial": "F",
   "name": "Facundo",
-  "role": "AI & Software Engineer",
+  "role": "Tech Lead | Solution Architect | AI Engineer",
   "github": "https://...",
   "portfolio": "https://...",
   "linkedin": "https://..."
