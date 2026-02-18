@@ -14,11 +14,10 @@ function parseContext(text: string): React.ReactNode[] {
     while (i < lines.length) {
         const line = lines[i];
 
-        // Handle "hashtag\n#tag" pattern
+        // Handle "hashtag\n#tag" pattern — consume both lines, add hashtag badge + br
         if (line.trim() === "hashtag" && i + 1 < lines.length) {
             const nextLine = lines[i + 1].trim();
             if (nextLine.startsWith("#")) {
-                // Extract individual hashtags from the next line (may have multiple)
                 const tags = nextLine.split(/\s+/).filter((t) => t.startsWith("#"));
                 nodes.push(
                     <span key={`ht-${i}`} style={{ display: "inline-flex", flexWrap: "wrap", gap: "0.4rem", marginRight: "0.2rem" }}>
@@ -27,25 +26,35 @@ function parseContext(text: string): React.ReactNode[] {
                         ))}
                     </span>
                 );
-                nodes.push(" "); // space between consecutive hashtag groups
+                // Only add a line break if the next-next line is not another hashtag group
+                const afterNext = lines[i + 2]?.trim();
+                if (afterNext !== "hashtag" && afterNext !== undefined) {
+                    nodes.push(<br key={`ht-br-${i}`} />);
+                } else {
+                    nodes.push(" ");
+                }
                 i += 2;
                 continue;
             }
         }
 
-        // Empty line → paragraph break
+        // Empty line → blank line (double br for visual paragraph spacing)
         if (line.trim() === "") {
             nodes.push(<br key={`br-${i}`} />);
             i++;
             continue;
         }
 
-        // Parse inline content (URLs, hashtags within a line)
+        // Non-empty line → render inline content then a line break
         nodes.push(
-            <span key={`line-${i}`} className="post-paragraph">
+            <span key={`line-${i}`}>
                 {parseInline(line)}
             </span>
         );
+        // Add <br> after every non-empty line (the \n in the source)
+        if (i < lines.length - 1) {
+            nodes.push(<br key={`lbr-${i}`} />);
+        }
         i++;
     }
 
