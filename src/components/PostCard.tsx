@@ -1,4 +1,6 @@
 import { Post } from "@/types/post";
+import { useState } from "react";
+import ImageModal from "./ImageModal";
 
 interface PostCardProps {
     post: Post;
@@ -141,74 +143,86 @@ function getDomain(url: string): string {
 
 export default function PostCard({ post, index }: PostCardProps) {
     const animDelay = `${(index % 8) * 0.05}s`;
+    const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
     return (
-        <article className="post-card" style={{ animationDelay: animDelay }}>
-            {/* Card Header */}
-            <div className="post-card-header">
-                <div className="post-avatar">F</div>
-                <div>
-                    <div className="post-author">{post.author}</div>
-                    <div className="post-meta">LinkedIn Post</div>
-                </div>
-            </div>
-
-            {/* Context */}
-            {post.context && (
-                <div className="post-context">
-                    {parseContext(post.context)}
-                </div>
+        <>
+            {selectedImage && (
+                <ImageModal
+                    src={selectedImage}
+                    alt="Enlarged view"
+                    onClose={() => setSelectedImage(null)}
+                />
             )}
+            <article className="post-card" style={{ animationDelay: animDelay }}>
+                {/* Card Header */}
+                <div className="post-card-header">
+                    <div className="post-avatar">F</div>
+                    <div>
+                        <div className="post-author">{post.author}</div>
+                        <div className="post-meta">LinkedIn Post</div>
+                    </div>
+                </div>
 
-            {/* Images */}
-            {post.images && post.images.length > 0 && (
-                <div className="post-images">
-                    {post.images.map((src, idx) => {
-                        const isSmall = isSmallImage(src);
-                        return (
-                            <div
+                {/* Context */}
+                {post.context && (
+                    <div className="post-context">
+                        {parseContext(post.context)}
+                    </div>
+                )}
+
+                {/* Images */}
+                {post.images && post.images.length > 0 && (
+                    <div className="post-images">
+                        {post.images.map((src, idx) => {
+                            const isSmall = isSmallImage(src);
+                            return (
+                                <div
+                                    key={idx}
+                                    className={
+                                        isSmall
+                                            ? "post-image-small-wrapper"
+                                            : `post-image-wrapper ${post.images.length === 1 ? "single" : ""}`
+                                    }
+                                    onClick={() => !isSmall && setSelectedImage(src)}
+                                    style={!isSmall ? { cursor: "zoom-in" } : undefined}
+                                >
+                                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                                    <img
+                                        src={src}
+                                        alt={`Post image ${idx + 1}`}
+                                        className={isSmall ? "post-image-small" : "post-image"}
+                                        loading="lazy"
+                                    />
+                                </div>
+                            );
+                        })}
+                    </div>
+                )}
+
+                {/* Attachments */}
+                {post.attachments && post.attachments.filter(url => !url.includes("lnkd.in") && !url.includes("linkedin.com")).length > 0 && (
+                    <div className="post-attachments">
+                        <div className="post-attachments-label">Links</div>
+                        {post.attachments.filter(url => !url.includes("lnkd.in") && !url.includes("linkedin.com")).map((url, idx) => (
+                            <a
                                 key={idx}
-                                className={
-                                    isSmall
-                                        ? "post-image-small-wrapper"
-                                        : `post-image-wrapper ${post.images.length === 1 ? "single" : ""}`
-                                }
+                                href={url}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="post-attachment-link"
                             >
-                                {/* eslint-disable-next-line @next/next/no-img-element */}
-                                <img
-                                    src={src}
-                                    alt={`Post image ${idx + 1}`}
-                                    className={isSmall ? "post-image-small" : "post-image"}
-                                    loading="lazy"
-                                />
-                            </div>
-                        );
-                    })}
-                </div>
-            )}
-
-            {/* Attachments */}
-            {post.attachments && post.attachments.filter(url => !url.includes("lnkd.in") && !url.includes("linkedin.com")).length > 0 && (
-                <div className="post-attachments">
-                    <div className="post-attachments-label">Links</div>
-                    {post.attachments.filter(url => !url.includes("lnkd.in") && !url.includes("linkedin.com")).map((url, idx) => (
-                        <a
-                            key={idx}
-                            href={url}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="post-attachment-link"
-                        >
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                                <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6" />
-                                <polyline points="15 3 21 3 21 9" />
-                                <line x1="10" y1="14" x2="21" y2="3" />
-                            </svg>
-                            {getDomain(url)}
-                        </a>
-                    ))}
-                </div>
-            )}
-        </article>
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                                    <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6" />
+                                    <polyline points="15 3 21 3 21 9" />
+                                    <line x1="10" y1="14" x2="21" y2="3" />
+                                </svg>
+                                {getDomain(url)}
+                            </a>
+                        ))}
+                    </div>
+                )}
+            </article>
+        </>
     );
 }

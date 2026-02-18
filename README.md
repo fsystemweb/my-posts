@@ -9,7 +9,7 @@ A personal posts feed built with **Next.js 16** (App Router, TypeScript). Loads 
 - 🖼️ **Images** — lazy-loaded, with side-by-side layout for multi-image posts
 - 🔗 **Attachments** — clickable link buttons grouped per post
 - 📱 **Fully responsive** — mobile, tablet, and desktop layouts
-- ⚡ **Static data** — no backend, posts served from `public/facundo_posts.json`
+- ⚡ **Static data** — no backend, posts served from `public/my_posts.json`
 
 ## Tech Stack
 
@@ -41,12 +41,12 @@ src/
 └── types/
     └── post.ts          # Post type definition
 public/
-└── facundo_posts.json   # Static posts data
+└── my_posts.json        # Static posts data
 ```
 
 ## Data Format
 
-Posts are loaded from `public/facundo_posts.json`. Each post follows this shape:
+Posts are loaded from `public/my_posts.json`. Each post follows this shape:
 
 ```json
 {
