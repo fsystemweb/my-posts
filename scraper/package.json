@@ -1,0 +1,14 @@
+{
+    "name": "linkedin-scraper",
+    "version": "1.0.0",
+    "description": "Standalone LinkedIn post scraper",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "puppeteer": "^23.0.0",
+        "dotenv": "^16.4.5",
+        "fs-extra": "^11.2.0"
+    }
+}
