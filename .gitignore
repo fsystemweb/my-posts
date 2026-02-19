@@ -39,3 +39,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+
+# scraper
+/scraper/node_modules
+/scraper/debug_error.html
+/scraper/posts.json
+/scraper/remote-profile

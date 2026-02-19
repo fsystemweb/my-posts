@@ -15,7 +15,7 @@ A personal posts feed built with **Next.js 16** (App Router, TypeScript). Loads 
 
 - [Next.js 16](https://nextjs.org) — App Router, Server Components
 - TypeScript
-- Vanilla CSS (no Tailwind)
+- Tailwind
 
 ## Getting Started
 
@@ -52,8 +52,8 @@ Posts are loaded from `public/my_posts.json`. Each post follows this shape:
 
 ```json
 {
-  "date": "2 días",
-  "author": "Facundo",
+  "date": "2 months",
+  "author": "Juan",
   "context": "Post text with\nnewlines and hashtag\n#tags",
   "images": ["https://..."],
   "attachments": ["https://..."]
@@ -65,17 +65,24 @@ Profile information (name, role, links) is loaded from `public/personal_data.jso
 
 ```json
 {
-  "initial": "F",
-  "name": "Facundo",
-  "role": "Tech Lead | Solution Architect | AI Engineer",
+  "initial": "J",
+  "name": "Juan",
+  "role": "Product Guy",
   "github": "https://...",
   "portfolio": "https://...",
   "linkedin": "https://..."
 }
 ```
 
-## Links
+## LinkedIn Scraper
 
-- [GitHub](https://github.com/fsystemweb)
-- [Portfolio](https://fsystemweb.github.io)
-- [LinkedIn](https://www.linkedin.com/in/facundo-sistema/)
+This project includes a standalone **LinkedIn Post Scraper** to help you collect your own content.
+
+- Located in the [`scraper/`](./scraper) directory.
+- Features:
+    - Scrapes recent activity from your profile.
+    - Filters out reposts, comments, and likes.
+    - Saves data as timestamped JSON files.
+    - Supports connecting to a local browser to bypass authentication issues.
+
+👉 **[Read the Scraper Documentation](./scraper/README.md)** for setup and usage instructions.
