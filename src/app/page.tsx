@@ -1,13 +1,32 @@
-import { readFile } from "fs/promises";
-import path from "path";
+
 import Header from "@/components/Header";
 import PostFeed from "@/components/PostFeed";
 import { Post } from "@/types/post";
 
 async function getPosts(): Promise<Post[]> {
-  const filePath = path.join(process.cwd(), "public", "my_posts.json");
-  const raw = await readFile(filePath, "utf-8");
-  return JSON.parse(raw) as Post[];
+  const binId = process.env.JSONBIN_BIN_ID;
+  const apiKey = process.env.JSONBIN_API_KEY;
+  const accessKey = process.env.JSONBIN_ACCESS_KEY;
+
+
+  if (!binId || !apiKey || !accessKey) {
+    throw new Error("Missing environment variables");
+  }
+
+  const res = await fetch(`https://api.jsonbin.io/v3/b/${binId}/latest`, {
+    headers: {
+      "X-Master-Key": apiKey,
+      "X-Access-Key": accessKey,
+    },
+    cache: "no-store", // Ensure we always get the latest data
+  });
+
+  if (!res.ok) {
+    throw new Error(`Failed to fetch posts: ${res.status} ${res.statusText}`);
+  }
+
+  const data = await res.json();
+  return data.record as Post[];
 }
 
 export default async function HomePage() {
