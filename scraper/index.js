@@ -119,7 +119,17 @@ async function scrapeLinkedIn() {
             scrollAttempts++;
             console.log(`Scrolling... (${scrollAttempts}/${MAX_SCROLLS})`);
 
-            // Expand "See more"
+            // Click "Mostrar más resultados" button to load older posts
+            try {
+                const loadMoreBtn = await page.$('.scaffold-finite-scroll__load-button');
+                if (loadMoreBtn && await loadMoreBtn.isVisible()) {
+                    console.log('Found "Mostrar más resultados" button, clicking...');
+                    await loadMoreBtn.click();
+                    await new Promise(r => setTimeout(r, 4000)); // Wait for posts to load
+                }
+            } catch (e) { /* ignore */ }
+
+            // Expand "See more" text buttons within posts
             try {
                 const seeMoreButtons = await page.$$('.feed-shared-inline-show-more-text__see-more-less-toggle');
                 for (const btn of seeMoreButtons) {
