@@ -84,16 +84,3 @@ Profile information (name, role, links) is loaded from `public/personal_data.jso
   "linkedin": "https://..."
 }
 ```
-
-## LinkedIn Scraper
-
-This project includes a standalone **LinkedIn Post Scraper** to help you collect your own content.
-
-- Located in the [`scraper/`](./scraper) directory.
-- Features:
-    - Scrapes recent activity from your profile.
-    - Filters out reposts, comments, and likes.
-    - Saves data as timestamped JSON files.
-    - Supports connecting to a local browser to bypass authentication issues.
-
-👉 **[Read the Scraper Documentation](./scraper/README.md)** for setup and usage instructions.
