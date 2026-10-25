@@ -1,0 +1,796 @@
+[
+  {
+    "date": "1w",
+    "author": "Facundo Ezequiel Diaz Cappella",
+    "context": "💬 Español\n\nUna feature muy interesante que presentó Supabase 🚀\n\nAhora podemos setear distintas rutinas agénticas para chequear el estado de nuestro proyecto, usando como herramienta el MCP de Supabase.\n\nHay 4 rutinas disponibles:\n\nHealth: errores de API y Auth, picos de error rate, presión de conexiones\nSecurity: hallazgos del Security Advisor, fallos de autenticación y autorización\nPerformance: queries lentas, lock waits, sesiones largas\nResources: crecimiento de requests, storage, tablas y conexiones\n\nTe dejo el link a la doc en los comentarios 👇\n\n💬 English\n\nAn interesting new feature from Supabase 🚀\n\nWe can now set up different agentic routines to check the state of our project, using the Supabase MCP as the tool.\n\nThere are 4 routines available:\nHealth: API and Auth errors, error rate spikes, connection pressure\nSecurity: Security Advisor findings, authentication and authorization failures\nPerformance: slow queries, lock waits, long-running sessions\nResources: growth in requests, storage, tables and connections\n\nhttps://supabase.com/docs/guides/observability/automate-with-agents/security\n\nhttps://supabase.com/docs/guides/observability/automate-with-agents",
+    "images": [
+      "https://iili.io/nklfQrG.jpg"
+    ],
+    "attachments": []
+  },
+  {
+    "date": "2w",
+    "author": "Facundo Ezequiel Diaz Cappella",
+    "context": "💬 Español\n\n¡Gran evento ayer en Madrid en el #DataAIWorldTour! 🚀\n\nMuy interesante ver todos los avances de Databricks. Y lo digo sin ser usuario de Databricks: todas las novedades que trajeron están atacando directamente los problemas que la industria está requiriendo hoy.\n\nTambién fue muy interesante conocer las distintas partnerships y las historias de éxito de los clientes. Ver casos reales siempre aporta otra perspectiva 💡\n\nMe quedo con estas ideas clave:\n🔹 Gobernanza\n🔹 Eficiencia de los datos con IA\n🔹 Uso inteligente de tokens\n\n\n💬 English\n\nGreat event yesterday in Madrid at the #DataAIWorldTour! 🚀\n\nIt was very interesting to see all the advances from Databricks. And I say that without being a Databricks user: every new feature they brought is directly tackling the problems the industry is demanding solutions for today.\n\nThe different partnerships and customer success stories were also very interesting. Real use cases always bring a different perspective 💡\n\nMy key takeaways:\n🔹 Governance\n🔹 Data efficiency with AI\n🔹 Smart use of tokens\n\nI’ll probably write a post about some of their new features. Stay tuned!",
+    "images": [
+      "https://iili.io/nklf6Xt.jpg"
+    ],
+    "attachments": []
+  },
+  {
+    "date": "3w",
+    "author": "Facundo Ezequiel Diaz Cappella",
+    "context": "💬 Español\n\nGoogle lanzó el nuevo SynthID Detector 🔍\n\nEn 2025, Google lanzó SynthID Detector, un portal de verificación para comprobar si un contenido tenía la marca de agua de Google SynthID. Primero lo probó con periodistas y profesionales de los medios, recogió su feedback… y ahora amplía el acceso a todo el mundo 🌍\n\nCon el nuevo SynthID Detector, cualquiera puede comprobar fácilmente si una imagen, un vídeo o un archivo de audio fue creado con IA de Google o de sus partners, incluidos OpenAI, NVIDIA, Kakao y, próximamente, Apple.\n\nPuede usarlo directamente desde Gemini.\n\nMas info en los comments.\n\n💬 English\n\nGoogle launched the new SynthID Detector 🔍\n\nIn 2025, Google launched SynthID Detector, a verification portal to check whether a piece of content was watermarked with Google SynthID. After testing it with journalists and media professionals and collecting their feedback, Google is now expanding access to everyone 🌍\n\nWith the new SynthID Detector, anyone can easily check if an image, video, or audio file was made with AI from Google or its partners, including OpenAI, NVIDIA, Kakao, and soon, Apple.\n\nYou can use this tool in Gemini.\n\nMore info check the comment section.\n\nhttps://deepmind.google/models/synthid/",
+    "images": [
+      "https://iili.io/nklfsBn.jpg"
+    ],
+    "attachments": []
+  },
+  {
+    "date": "4w",
+    "author": "Facundo Ezequiel Diaz Cappella",
+    "context": "💬 Español\n\nPos si te lo perdiste hace unas semanas: Anthropic dejó las diferencias de lado y ahora soporta AGENTS.md 🙌\n\nEsto hace que saltar entre agentic harnesses o providers dentro de tus codebases sea mucho más simple, sin reconfigurar todo cada vez.\n\nMe parece interesante cómo de a poco la industria va avanzando hacia un estándar común. Menos fricción para los que construimos 🚀\n\n💬 English\n\nIn case you missed it a few weeks ago: Anthropic set their differences aside and now supports AGENTS.md 🙌\n\nThis makes jumping between harnesses or providers across your codebases much simpler, with no need to reconfigure everything each time.\n\nI find it interesting how, little by little, the industry is moving toward a common standard.\n\nLess friction for those of us building 🚀",
+    "images": [],
+    "attachments": []
+  },
+  {
+    "date": "5w",
+    "author": "Facundo Ezequiel Diaz Cappella",
+    "context": "Creo que necesito unos dots in my life ;) . Si te perdiste la demo de OpenAI ayer, todavia la puedes chequear aqui -> https://openai.com/live/",
+    "images": [],
+    "attachments": []
+  },
+  {
+    "date": "6w",
+    "author": "Facundo Ezequiel Diaz Cappella",
+    "context": "💬 Español\n\nHace unos días me topé con un benchmark llamado FrontierMath : Open Problems que lista 50 problemas matemáticos queno no han sido resultos.\n\n-> Cada enunciado va acompañado de un verificador automático, así cualquier solución propuesta puede ser validada sin intervención humana.\n\nEL RITMO DE LOS MODELOS\nCada vez que sale una versión nueva, la comunidad la prueba contra este set. En los últimos meses vimos cómo la IA resolvió el caso de la matriz de Hadamard de orden 668 y re‑clasificó el problema de Galois inverso para (M_{23}).\n\n\nLos números de problemas “resueltos” suelen ser pocos, pero lo importante es que la IA está generando conjeturas que pasan el verificador, eso ya abre una nueva forma de colaboración entre humanos y máquinas.\n\nAún estamos en la fase de “explorador”, pero si seguimos alimentando benchmarks tan rigurosos, pronto veremos avances que hoy consideramos imposibles.\n\n\nFuente: Epoch AI – FrontierMath Open Problems.\n\nLink en los comentarios.\n\n💬 English\n\nA few days ago I stumbled upon a benchmark called FrontierMath : Open Problems, a list of 50 math questions that have resisted professional mathematicians so far.\n\n\n-> Each problem comes with an automatic verifier, so any proposed solution can be checked without human intervention.\n\nTHE MODEL RACE\nWhenever a new model drops,  the community runs it against this set. Recently AI cracked the Hadamard matrix of order 668 and re‑classified the inverse Galois problem for (M_{23}).\n\n\nThe count of “solved” problems stays low, but the fact that AI can generate conjectures that pass the verifier already changes how we collaborate with machines.\n\nWe’re still in explorer mode, yet feeding rigorous benchmarks like this could soon turn today‑impossible breakthroughs into reality.\n\nSource: Epoch AI – FrontierMath Open Problems.\n\nLink in the comments.\n\nhttps://epoch.ai/frontiermath/open-problems",
+    "images": [],
+    "attachments": []
+  },
+  {
+    "date": "7w",
+    "author": "Facundo Ezequiel Diaz Cappella",
+    "context": "💬 Español\n\nSumando otra review de Claude Opus 5.5 🚀 Seguramente ya estás cansado de leerlas, así que la mantengo lo más corta posible.\n\nEstoy alegre con los resultados: lo que antes a Sonnet 5 le tomaba 4 o 5 iteraciones, con Opus 5.5 lo logré en solo 2. ⚡\n\nSegún Anthropic, los resultados deberían ser similares a Fable 5.1, pero Opus 5.5 es considerablemente más barato. 💰\n\nLo único: los tiempos de respuesta sí son notables, pero aceptables, porque la performance es muy buena desde mi humilde punto de vista.\n\n¿Ya lo probaste? Link official de la tarjeta del modelo en los comments 👇\n\n💬 English\n\nAdding another Claude Opus 5.5 review 🚀 You're probably tired of them by now, so I'll keep this as short as possible.\n\nI'm happy with the results: what used to take Sonnet 5 four or five iterations, Opus 5.5 got done in just 2. ⚡\n\nAccording to Anthropic, the results should be similar to Fable 5.1, but Opus 5.5 is considerably cheaper. 💰\n\nThe only thing: response times are noticeable, but acceptable, because the performance is very good from my humble point of view.\n\nHave you tried it yet? Official link about the model card in the comment section👇\n\nhttps://www.anthropic.com/claude-opus-5-5",
+    "images": [],
+    "attachments": []
+  },
+  {
+    "date": "8w",
+    "author": "Facundo Ezequiel Diaz Cappella",
+    "context": "💬 Español\n\n¿Qué pasa cuando la IA nos deja terminar código en un tercio del tiempo? 🤔\n\nX3 DE PRODUCTIVIDAD\n -> Generación automática de snippets y pruebas.\n -> Depuración asistida que corta los ciclos de bug.\n -> Menos tiempo en builds y merges.\n\nDÓNDE DEBERÍA IR ESE TIEMPO\n -> Planificación detallada de objetivos.\n -> Investigación profunda de requisitos.\n -> Documentación viva que acompañe al código.\n -> Espacios reales de colaboración y revisión.\n\nEL RIESGO QUE NADIE QUIERE VER\n -> Si la comunicación se rompe, aparecen alucinaciones de IA y errores ocultos.\n -> La falta de comunicación en los equipos es un bug peligroso: la información no fluye y los riesgos se esconden.\n\nLa próxima métrica de éxito no será la velocidad de commit ni cuántos tokens se han quemado, sino si el equipo atacó los problemas correctos y asignó la planificación necesaria. 💡\n\n💬 English\n\nWhat happens when AI lets us finish code in a third of the time? 🤔\n\n3X PRODUCTIVITY\n -> Automatic generation of snippets and tests.\n -> Assisted debugging that cuts bug cycles short.\n -> Less time spent on builds and merges.\n\nWHERE THAT TIME SHOULD GO\n -> Detailed goal planning.\n -> Deep requirements research.\n -> Living documentation that keeps pace with the code.\n -> Real spaces for collaboration and review.\n\nTHE RISK NO ONE WANTS TO SEE\n -> When communication breaks down, AI hallucinations and hidden errors creep in.\n -> Lack of communication within teams is a dangerous bug: information stops flowing and risks stay hidden.\n\nThe next metric of success won't be commit velocity or how many tokens were burned, it will be whether the team tackled the right problems and gave them the planning they needed. 💡",
+    "images": [],
+    "attachments": []
+  },
+  {
+    "date": "9w",
+    "author": "Facundo Ezequiel Diaz Cappella",
+    "context": "💬 Español\n\nMuy interesante este contenido y esta solución que ofrece LangChain sobre \"agent harnesses\" 🤖\n\nEn menos de 90 segundos, Jess Weng explica un concepto clave: el harness es la estructura que rodea al modelo, dotándolo de herramientas, contexto, memoria y permisos, todo lo necesario para convertir un LLM en un verdadero agente.\n\nDejo un ejemplo práctico oficial de webinar oficial, que muestra lo amigable que es esta solución y por qué el \"harness engineering\" se está convirtiendo en una habilidad esencial.\n\n¿Querés profundizar? LangChain Academy ofrece un curso gratuito sobre el tema. 🚀\n\n💬 English\n\nReally interesting content and solution from LangChain on \"agent harnesses\" 🤖\n\nIn under 90 seconds, Jess Weng breaks down a concept every builder should know: the harness is the scaffolding around the model — giving it tools, context, memory, and permissions, turning a plain LLM into a true agent.\n\nSharing this official practical example from an official webinar, which shows just how approachable this solution really is.\n\nWant to go deeper? LangChain Academy has a free course on harness engineering. 🚀\n\nhttps://colab.research.google.com/drive/18HnyRT_AualxB_YLK2sfN-2rwSyk4exx#scrollTo=6ab1c5c9",
+    "images": [],
+    "attachments": []
+  },
+  {
+    "date": "10w",
+    "author": "Facundo Ezequiel Diaz Cappella",
+    "context": "PROMPT CACHING\n\n💬 Español\n\nEl coste de los tokens sigue siendo una de las mayores dudas para las empresas que integran modelos de lenguaje. Cada llamada al API suma tokens de prompt + completion y, a la larga, el bill puede crecer sin que nos demos cuenta. 💰\n\n OpenAI tiene una funcionalidad que permite almacenar en caché el prompt completo y reutilizar la respuesta siempre que el texto sea idéntico.\n-> Se guarda el hash del prompt y la respuesta asociada.\n -> En la siguiente llamada, si el hash coincide, se devuelve la respuesta cacheada sin consumir tokens de prompt.\n -> Sólo se paga por el completion (si se solicita) y por la operación de lectura del caché.\n\nVENTAJAS Y CONSIDERACIONES\n -> Reduce notablemente el gasto en prompts estáticos.\n -> Mejora la latencia: la respuesta cacheada es instantánea. ⚡\n -> No ayuda cuando el prompt incluye variables dinámicas, hay que diseñar plantillas con placeholders.\n -> El caché tiene un TTL (tiempo de vida) y límites de tamaño, hay que monitorear su ocupación.\n\nEl caché ahorra en el coste del prompt. Si el completion es grande, el ahorro total es interesante a tener en cuenta. ✅\n\nLink en los comentarios.\nFuente: OpenAI\n\n💬 English\n\nToken cost remains a top concern for companies building on language models. Every API call adds prompt and completion tokens, and the bill can grow unnoticed. 💰\n\nPROMPT CACHING\n\n OpenAI has a feature that lets you cache the entire prompt and reuse the response whenever the text is identical.\n-> Stores a hash of the prompt with its associated response.\n -> On a subsequent call, matching hash returns the cached answer without consuming prompt tokens.\n -> You only pay for the completion (if requested) and the cache read operation.\n\nBENEFITS & CONSIDERATIONS\n -> Cuts prompt costs dramatically for static inputs.\n -> Improves latency: cached answers are immediate. ⚡\n -> Not useful for prompts with dynamic variables; you need templated placeholders.\n -> Cache has a TTL and size limits; monitoring usage is required.\nCaching saves on the prompt cost. If the completion is large, the total savings are worth keeping in mind. ✅\n\n\nLink in the comments.\n Source: OpenAI\n\nhttps://developers.openai.com/api/docs/guides/prompt-caching",
+    "images": [],
+    "attachments": []
+  },
+  {
+    "date": "11w",
+    "author": "Facundo Ezequiel Diaz Cappella",
+    "context": "💬 Español\n\n¿Sabías que existe un RCE activo que rompe el sandbox de Chromium en todas sus versiones? 🛡️\n\nVULNERABILIDAD\nUn script inyectado crea un iframe invisible, luego inserta código JavaScript que carga otro script desde Cloudflare. El iframe permite acceder al documento interno y ejecutar código arbitrario dentro del proceso del navegador.\n\nMECANISMO\n-> Se usan atributos async / defer para evadir detección temprana.\n-> El iframe oculto se inserta en document.body.\n-> Una vez cargado, el script escribe en head una carga de main.js que ejecuta el payload.\n\nIMPACTO\n-> Ejecución remota de código en el contexto del sandbox.\n-> Afecta a Chromium, Chrome, Edge, Brave… cualquier versión que use el motor.\n-> Posible escalado a nivel de sistema si el atacante combina con otras vulnerabilidades locales.\n\nMITIGACIÓN (lo que podemos hacer ahora)\n-> Mantener navegadores actualizados; los parches recientes reducen la superficie.\n-> Desactivar la ejecución automática de scripts en entornos críticos (CSP estrictas).\n-> Monitorear tráfico de carga de scripts externos sospechosos.\n\nNota:\nEl uso de document.lastElementChild.appendChild permite inyectar scripts justo antes del cierre del body, evadiendo algunas heurísticas de detección basadas en posición.\nMás que esperar a los parches, debemos reforzar nuestras defensas.\n\nFuente: reporte de investigación de seguridad, link en los comentarios.\n\n💬 English\n\nDid you know there’s an actively exploited RCE that breaks Chromium’s sandbox across all versions? 🛡️\n\nVULNERABILITY\nA malicious script creates an invisible iframe, then injects JavaScript that pulls another script from Cloudflare. The iframe gives access to the inner document, letting arbitrary code run inside the browser process.\n\nMECHANISM\n-> Uses async / defer flags to bypass early detection.\n-> Hidden iframe is appended to document.body.\n-> Once loaded, the script writes a head tag that loads main.js and executes the payload.\n\nIMPACT\n-> Remote code execution within the sandbox.\n-> Affects Chromium, Chrome, Edge, Brave… any version using the engine.\n-> Potential system‑level escalation when combined with other local flaws.\n\nMITIGATION (what we can do now)\n-> Keep browsers up‑to‑date; recent patches shrink the attack surface.\n-> Disable automatic script execution in critical environments (strict CSP).\n-> Monitor suspicious external script loads.\n\nAppending to document.lastElementChild injects scripts just before the closing body, sidestepping heuristics that look at script position.\n\n\nSource: security research report, link in the comments.\n\nhttps://nvd.nist.gov/vuln/detail/cve-2026-85046",
+    "images": [
+      "https://iili.io/nklf6Xt.jpg"
+    ],
+    "attachments": []
+  },
+  {
+    "date": "12w",
+    "author": "Facundo Ezequiel Diaz Cappella",
+    "context": "💬 Español\n\n🚦 Error 429: Too Many Requests\n\nSi trabajas con soluciones de IA, tarde o temprano te lo vas a encontrar.\n\n¿Por qué pasa?\n Cada API tiene un límite de peticiones por minuto (y también de tokens). Cuando lo superas, el servidor no se cae: te responde con un 429 y te pide que bajes el ritmo.\n\n¿Por qué es bueno que exista?\n Porque protege el servicio para todos. Evita la saturación, mantiene la latencia estable, controla costes y frena abusos. Un 429 no es un fallo: es un semáforo. ⚙️\n\n¿Cómo se soluciona?\nReintenta con backoff exponencial y respeta la cabecera Retry-After\nAgrupa peticiones en lotes en lugar de enviarlas una a una\nCachea las respuestas que se repiten\nUsa una cola y limita la concurrencia\nMonitoriza tu consumo y sube de cuota cuando el volumen lo pida\n\n¿Te has topado con un 429? ¿Cómo lo resolviste?\n\n💬 English\n\n🚦 Error 429: Too Many Requests\n\nIf you build with AI solutions, sooner or later you'll run into it.\n\nWhy does it happen?\n Every API has a limit on requests per minute (and on tokens too). When you go over it, the server doesn't crash: it answers with a 429 and asks you to slow down.\n\nWhy is it good that it exists?\n Because it protects the service for everyone. It prevents overload, keeps latency stable, controls costs and stops abuse. A 429 isn't a failure: it's a traffic light. ⚙️\n\nHow do you fix it?\nRetry with exponential backoff and respect the Retry-After header\nBatch your requests instead of firing them one by one\nCache responses that repeat\nUse a queue and cap concurrency\nMonitor your usage and move up a tier when volume demands it\n\nHave you hit a 429? How did you solve it?",
+    "images": [
+      "https://iili.io/nklfPLX.jpg"
+    ],
+    "attachments": []
+  },
+  {
+    "date": "6d",
+    "author": "Facundo Ezequiel Diaz Cappella",
+    "context": "💬 Español\n\nLa Ley de IA de la UE ya está en vigor, y aplica a muchas más empresas de las que la gente cree. 🇪🇺\n\nUn repaso rápido para quien aún no la tenga clara:\n\nQUIÉN Y CUÁNDO\nLa Unión Europea la aprobó como Reglamento (UE) 2024/1689, el primer marco legal integral sobre inteligencia artificial del mundo. Entró en vigor el 1 de agosto de 2024 y empezó a aplicarse el 2 de agosto de 2026.\n\nQUÉ BUSCA\nFomentar una IA fiable en Europa mediante un enfoque basado en el riesgo, no en la tecnología. Los usos inaceptables se prohíben. Los sistemas de alto riesgo (contratación, crédito, educación, biometría, infraestructuras críticas) cargan con obligaciones fuertes. El resto, sobre todo transparencia: avisar cuando hablas con una IA y etiquetar el contenido sintético. \n\nA QUÉ MERCADO AFECTA\nNo solo a empresas europeas. Si tu sistema de IA se comercializa en la UE o su resultado se usa allí, estás dentro, tengas la sede donde la tengas.\n\nPOR QUÉ\nPorque hacía falta una regla común: proteger derechos fundamentales y seguridad, y a la vez dar seguridad jurídica a quien innova. Un solo estándar para 27 países en lugar de 27 normas distintas.\n\nEL DATO QUE MUCHOS SE PIERDEN 🚦\nLas obligaciones para sistemas de alto riesgo independientes se retrasaron al 2 de diciembre de 2027, y al 2 de agosto de 2028 para la IA integrada en productos regulados. Pero ojo: las obligaciones de transparencia y los poderes de supervisión sobre modelos de propósito general ya están activos desde el 2 de agosto de 2026. \n\n💬 English\n\nThe EU AI Act is now live, and it applies to far more companies than people think. 🇪🇺\n\nA quick recap for anyone still catching up:\n\nWHO AND WHEN\nThe European Union passed it as Regulation (EU) 2024/1689, the first comprehensive legal framework on AI in the world. It entered into force on 1 August 2024 and became applicable on 2 August 2026. \n\nWHAT IT AIMS FOR\nFostering trustworthy AI in Europe through a risk-based approach, not a technology-based one. Unacceptable uses are banned. High-risk systems (hiring, credit, education, biometrics, critical infrastructure) carry heavy obligations. Everything else is mostly transparency: tell people when they're talking to an AI, label synthetic content.\n\nWHAT MARKET IT TOUCHES\nNot just European companies. If your AI system is placed on the EU market or its output is used there, you're in scope, no matter where you're headquartered.\n\nWHY IT EXISTS\nBecause a common rulebook was overdue: protect fundamental rights and safety, while giving builders legal certainty. One standard for 27 countries instead of 27 different ones.\n\nTHE PART MOST PEOPLE MISS 🚦\nObligations for stand-alone high-risk systems were pushed to 2 December 2027, and to 2 August 2028 for AI embedded in regulated products. But careful: transparency duties and enforcement powers over general-purpose AI providers have been active since 2 August 2026.",
+    "images": [
+      "https://i.postimg.cc/NKYtcRFz/EU-AI-ACT.webp"
+    ],
+    "attachments": []
+  },
+  {
+    "date": "1w",
+    "author": "Facundo Ezequiel Diaz Cappella",
+    "context": "💬 Español\n\n🪆 ¿Y si tu agente de IA no necesitara ver todas sus herramientas a la vez?\n\nEsa es la idea detrás de la técnica Matrioska (agentes jerárquicos o patrón supervisor): en lugar de exponer 40 herramientas a un único agente, agrupas las herramientas granulares dentro de sub-agentes y envuelves cada sub-agente en una sola herramienta fachada.\n\nEl super-agente principal solo ve un puñado de opciones: \"Herramienta de Base de Datos\", \"Herramienta de Música\".\n\nCuando llama a una, por dentro se ejecuta un sub-agente especialista con sus propias tools, y devuelve el resultado agregado.\n\n\nNotas:\n→ Scoping de estado y memoria: no pases el historial completo de la conversación al sub-agente. Que la herramienta de alto nivel genere un resumen conciso de la tarea.\n\n→ El coste de anidar: cada llamada a una fachada es un ciclo completo de inferencia, no una función. Ganas contexto, pagas en latencia y en depuración.\n\n💡 A veces la mejor arquitectura no es la que añade más herramientas, sino la que decide cuáles esconder.\n\n💬 English\n\n🪆 What if your AI agent didn't need to see all its tools at once?\n\nThat's the idea behind the Matryoshka technique (hierarchical or supervisor agents): instead of exposing 40 tools to a single agent, you group the granular tools inside sub-agents and wrap each sub-agent in one facade tool.\n\nThe primary super-agent only sees a handful of options: \"Database Tool\", \"Media Tool\".\nWhen it calls one, an internal specialist sub-agent executes with its own tools and returns the aggregated result.\n\n\nNotes:\n\n→ State & memory scoping: don't pass full conversation histories down to sub-agents. Have the top-level tool generate a concise task summary instead.\n\n→ The cost of nesting: every facade call is a full inference loop, not a function call. You buy context back and pay for it in latency and debuggability.\n\n💡 Sometimes the best architecture isn't the one that adds more tools, it's the one that decides which ones to hide.",
+    "images": [
+      "https://i.postimg.cc/htQtVrqN/matrioska.png"
+    ],
+    "attachments": []
+  },
+  {
+    "date": "2w",
+    "author": "Facundo Ezequiel Diaz Cappella",
+    "context": "💬 Español\n\n🚀 Otra gran manera de certificar tu conocimiento en IA.\n\nSi tu día a día consiste en definir la estrategia de producto de IA, identificar resultados de negocio y evaluar proveedores de IA, esta certificación es para ti.\n\nLos líderes de IA impulsan las decisiones de implementación equilibrando costo, rendimiento y riesgo, siempre asegurando la alineación con la estrategia de la organización.\n\n💡 Te recomiendo revisar la certificación \"Nebius Certified AI Leader\" y aprovechar la oferta early bird disponible por tiempo limitado.\n\n🔗 Links en la sección de comentarios.\n\n\n💬 English\n\n🚀 Another great way to certify your knowledge in AI.\n\nIf your tasks involve defining AI product strategy, identifying business outcomes, and evaluating AI vendors, this certification is for you.\n\nAI leaders drive implementation decisions by balancing cost, performance, and risk, while ensuring alignment with organizational strategy.\n\n💡 You should check out the \"Nebius Certified AI Leader\" certification and take advantage of the early bird offer while it lasts.\n\n🔗 Links in the comment section.\n\nhttps://lnkd.in/dQJUs9RU",
+    "images": [],
+    "attachments": []
+  },
+  {
+    "date": "2w",
+    "author": "Facundo Ezequiel Diaz Cappella",
+    "context": "💬 Español\n\nInteresante 🤔 Mientras la mayoría de las grandes corporaciones sigue apostando por los modelos privados, los últimos datos de Vercel muestran que los modelos abiertos están ganando terreno en silencio, aunque no donde uno esperaría.\n\nSegún el AI Gateway Production Index de Vercel (datos de junio 2026), los modelos open-weight ya representan el 29% de todos los tokens que pasan por el gateway, frente al 11% en abril, usando menos del 4% del gasto total. DeepSeek por sí solo llega al 22.6% del volumen de tokens, a menos de dos puntos de Google.\n\nPero no es una toma total: Anthropic sigue capturando el 61% del gasto con solo el 32% de los tokens, y más del 72% del gasto en cada caso de uso de alto riesgo, como agentes de código o automatización de back-office. El patrón es claro: los equipos enrutan el trabajo de alto volumen y bajo riesgo hacia modelos abiertos baratos, y reservan los modelos frontier para las tareas donde equivocarse sale caro.\n\nLa pregunta ya no es si los modelos abiertos pueden competir, sino cuánto de tu volumen de bajo riesgo sigue yendo a un modelo que estás pagando de más 🚀\n\n¿Tu equipo ya está dividiendo el tráfico así, o todavía enruta todo al mismo modelo?\n\n\n💬 English\n\nInteresting 🤔 While most big corporations keep betting on private models, Vercel's latest data shows open models are quietly gaining serious ground, just not where you'd expect.\n\nAccording to Vercel's AI Gateway Production Index (June 2026 data), open-weight models now run 29% of all tokens routed through the gateway, up from just 11% in April, while using under 4% of total spend. DeepSeek alone is at 22.6% of token volume, less than two points behind Google.\n\nBut it's not a full takeover: Anthropic still captures 61% of spend on 32% of tokens, and over 72% of spend in every high-stakes use case like coding agents and back-office automation. The pattern is clear — teams are routing high-volume, lower-risk work to cheap open models, and keeping frontier models for the tasks where mistakes are expensive.\n\nThe question is no longer whether open models can compete, but how much of your low-stakes volume you're still sending to a model you're overpaying for 🚀\n\nIs your team already splitting traffic this way, or still routing everything to the same model?",
+    "images": [],
+    "attachments": []
+  },
+  {
+    "date": "2mo",
+    "author": "Facundo Ezequiel Diaz Cappella",
+    "context": "💬 Español\n\n\nHace unos días me topé con un framework [DSPy] que me pareció muy interesante para construir soluciones agénticas 🤖\n\nLo que me llamó la atención es su enfoque: en lugar de depender de un prompt muy elaborado, el propio framework te ayuda a estructurar el contexto que la solución necesita. Eso lo hace más práctico y robusto que alguna de las otras alternativas.\n\nTodavía estoy experimentando con él para ver hasta dónde llega, pero la primera impresión es bastante positiva. Y un punto a favor: está construido en Python 🐍\n\n¿Alguien más lo ha probado? Me interesa saber qué experiencias han tenido.\n👇 Dejo el link al proyecto en los comentarios.\n\n💬 English\n\nA few days ago I stumbled upon a framework [DSPy] for building agentic solutions that I found genuinely interesting 🤖\n\nWhat caught my attention is its approach: rather than relying on a heavy, overly-engineered prompt, the framework itself helps you structure the context your solution needs. That makes it feel more practical and resilient compared to other options.\n\nI'm still experimenting with it to see how far it can go, but first impressions are solid. And a big plus, it's built in Python 🐍\n\nHas anyone else tried it? Would love to hear your experiences.\n\n👇 Dropping the link to the project in the comments.",
+    "images": [
+      "https://i.postimg.cc/g2L23DWP/dspy.png"
+    ],
+    "attachments": []
+  },
+  {
+    "date": "3h",
+    "author": "Facundo Ezequiel Diaz Cappella",
+    "context": "Interesante análisis para tener en cuenta a la hora de usar skills como Caveman \"input tokens outnumber output by 20-25x. The input price is the number that actually drives your bill.\"",
+    "images": [
+      "https://i.postimg.cc/HLn8QFs8/caveman-2.jpg"
+    ],
+    "attachments": []
+  },
+  {
+    "date": "6d",
+    "author": "Facundo Ezequiel Diaz Cappella",
+    "context": "💬 Español\n\nAnthropic ha lanzado un nuevo modelo al público general 🚀. Diferentes benchmarks sugieren que es claramente superior a su predecesor Claude Opus y que también supera a competidores como Gemini y los modelos de OpenAI. Curiosamente, este modelo forma parte de la familia Mythos, lo que significa que comparte las mismas capacidades base, pero en esta versión pública Anthropic ha añadido guardrails que impiden el acceso a conocimiento relacionado con ciberseguridad, biología y métodos de distillation.\n\n(distillation)Esto significa que no podremos usar Fable para construir mejores modelos, básicamente un mecanismo de protección frente a la competencia.\n\nEstas salvaguardas se están viendo por primera vez en modelos de Anthropic. Ya hay varias publicaciones de la comunidad discutiéndolas, e incluso hay informes que sugieren que los guardrails no son totalmente fiables, con ejemplos de falsos negativos 😳.\n\nAnthropic suspendió el uso ayer (15 de junio de 2026) siguiendo una orden del gobierno de EE. UU. El timing también resulta bastante conveniente para Anthropic, especialmente teniendo en cuenta las preocupaciones de la comunidad sobre los guardrails, incluyendo reportes de falsos negativos.\n\nSerá interesante ver cuánto tardan los modelos open en alcanzar este nivel. El tiempo lo dirá ⏳\n\nDocumento oficial de la release del modelo en los cometarios.\n\n💬 English\n\nAnthropic has released a new model to the general public 🚀. Different benchmarks suggest it is clearly superior to its predecessor Claude Opus and also ranks ahead of competitors like Gemini and OpenAI models. Interestingly, this is part of the Mythos family, meaning it shares the same core capabilities, but in this public release Anthropic has added safeguards that prevent access to knowledge related to cybersecurity, biology, and distillation methods.\n\n(distillation)This means we won’t be able to use Fable to build better models,essentially a protection mechanism against competitive.\n\nThese safeguards are being seen for the first time in Anthropic models. There are already several community posts discussing them, and there are even reports suggesting the guardrails may not be fully reliable, with examples of false negatives 😳.\n\nAnthropic suspended usage yesterday (June 15, 2026) following an order from the US government. The timing also feels very convenient for Anthropic, especially given the guardrail concerns raised by the community, including reports of false negatives.\n\nIt will be interesting to see how long it takes for open models to reach this level. Time will tell ⏳\n\nCheck official system card in the comment section",
+    "images": [
+      "https://i.postimg.cc/T38WryMm/fable.png"
+    ],
+    "attachments": []
+  },
+  {
+    "date": "1w",
+    "author": "Facundo Ezequiel Diaz Cappella",
+    "context": "💬 Español\n\nDe Software Engineer a Context Engineer 🧠\n\nEste término está en tendencia hace un tiempo, y por buena razón. Cuanto más profundizas en este enfoque, más matices descubres.\n\nUna verdad que pocos dicen en voz alta: si la IA falla, muchas veces el problema no está en el modelo, está en el contexto. Ahí es exactamente donde el ingeniero tiene que brillar.\n\nDominar Context Engineering implica saber evitar alucinaciones, optimizar el uso de tokens y asegurarse de que cada pieza de información que entra en la ventana de contexto tenga un propósito claro. Nada de más, nada de menos.\n\nAndrej Karpathy lo resume mejor de lo que yo podría: \"Context engineering is the delicate art and science of filling the context window with just the right information for the next step\"\n\nRequiere práctica constante y mantenerse al día en un campo que evoluciona rápido.\n\nEl link al tweet de Andrej en los comentarios, por si quieres leerlo directamente. ✨\n\n💬 English\n\nFrom Software Engineer to Context Engineer 🧠\n\nThe term is everywhere right now, and for good reason. The more you dig into it, the more layers you find.\n\nHere's something not enough people say out loud: when AI gets it wrong, the model is often not the problem. The context is. And that's exactly where the engineer needs to step up.\n\nMastering Context Engineering means knowing how to prevent hallucinations, optimize token usage, and ensuring every piece of information entering the context window serves a clear purpose. Nothing more, nothing less.\n\nAndrej Karpathy puts it better than I ever could: \"Context engineering is the delicate art and science of filling the context window with just the right information for the next step\"\n\nIt takes consistent practice and a commitment to staying current in a field that moves fast.\n\nDropping the link to Andrej's tweet in the comments if you want to read it directly. ✨",
+    "images": [],
+    "attachments": []
+  },
+  {
+    "date": "1w",
+    "author": "Facundo Ezequiel Diaz Cappella",
+    "context": "  💬 Español\n\nInteresante ver el ritmo al que crecen las empresas de IA en poder de cómputo.n\n¿Cuál será el verdadero cuello de botella? \n\nSerá la energía y la infraestructura física. \n\nLos chips avanzan más rápido de lo que se construyen plantas eléctricas. 🤔\n\n💬 English\n\nInteresting to see the pace at which AI companies are growing in compute power.\n\nWhat will the real bottleneck be?\n\nIt will be energy and physical infrastructure.\n\nChips advance faster than power plants get built. 🤔\n\n",
+    "images": [
+      "https://i.postimg.cc/ThvYWDLR/epoch.jpg"
+    ],
+    "attachments": []
+  },
+  {
+    "date": "2 horas",
+    "author": "Facundo Ezequiel Diaz Cappella",
+    "context": "💬 Español\n\nSpec Driven Development está ganando terreno… y GitHub acaba de entrar en la conversación. 🚀\n\nEn un momento donde la industria del software evoluciona más rápido que nunca, el desarrollo basado en especificaciones (Spec Driven Development) está ganando cada vez más relevancia.\n\nGitHub no se ha quedado atrás: acaba de lanzar su propio kit para este enfoque, y la demo disponible directamente en su repositorio es muy interesante de explorar.\n\nPuedes elegir el agente de codificación que mejor se adapte a tu flujo de trabajo: Copilot, Claude o Codex.\n\nLink en los comentarios 👇\n\n💬 English\n\nSpec Driven Development is gaining serious momentum… and GitHub just made its move. 🚀\n\nIn an industry evolving at breakneck speed, Spec Driven Development is becoming increasingly relevant.\n\nGitHub has just launched its own kit for this approach, and the demo available directly in their repository is well worth exploring.\nYou can choose the coding agent that best fits your workflow, Copilot, Claude, or Codex.\n\nLink in the comment section 👇",
+    "images": [],
+    "attachments": []
+  },
+  {
+    "date": "1 semana",
+    "author": "Facundo Ezequiel Diaz Cappella",
+    "context": "💬 Español\n\nEncontré un artículo que compara cuándo y por qué usar MCP sobre HTTP en la comunicación entre agentes. Aunque ambos pueden funcionar, hay diferencias importantes a tener en cuenta que harán que el descubrimiento de agentes sea mucho más fácil y conveniente. Vale la pena leerlo.\n\nAl final del artículo comparten este framework de decisión:\n\n• ¿Es el agente de IA el que llama a la herramienta? No (es una operación de backend), usa HTTP directo.\n• ¿Cuántas herramientas externas necesitas? Si son 1-2, HTTP directo es más simple. Si son 3 o más, considera MCP. \n• ¿Existe un servidor MCP ya construido para el servicio? Si, usarlo te ahorra tiempo de desarrollo. \n• ¿Necesitas que la integración funcione en varias plataformas de IA? Si, MCP te da esa portabilidad. \n• ¿La latencia es crítica (menos de 100ms para las llamadas)? Si, mide el impacto de MCP y decide según los resultados. \n• ¿Distintos equipos gestionan distintas integraciones? Si, el modelo de MCP con un servidor por integración ayuda a definir responsabilidades.\n\nEn la práctica, si estás construyendo un agente de IA que necesita interactuar con servicios externos, MCP es cada vez más la opción por defecto. El ecosistema de servidores pre-construidos es lo suficientemente amplio como para que puedas empezar sin escribir ningún código de servidor.\n\nFuente: Jakub Swistak - quickchat.ai\n\n---\n\n💬 English\n\nI found an amazing article comparing why and when to use MCP over HTTP in agent communication. While both can get the job done, there are important differences to take into account that will make agent discovery much easier and more convenient. Check out the article for all the details , it's a great read!\n\nAt the end of the article they shared this decision framework:\n\n• Is the AI agent calling the tool? If no (it's a backend operation), use direct HTTP. \n• How many external tools do you need? If 1-2, direct HTTP is simpler. If 3+, consider MCP. \n• Does a pre-built MCP server exist for the service? If yes, using it saves development time. \n• Do you need the integration to work across multiple AI platforms? If yes, MCP provides portability. \n• Is latency critical (sub-100ms budget for tool calls)? If yes, benchmark MCP overhead and decide accordingly. \n• Do different teams own different integrations? If yes, MCP's server-per-integration model helps with ownership boundaries.\n\nIn practice, if you are building an AI agent that needs to interact with external services, MCP is increasingly the default choice. The ecosystem of pre-built servers is large enough that you can often get started without writing any server code at all.\n\nSource: Jakub Swistak - quickchat.ai\n\ncheck the full article in the comment section",
+    "images": [],
+    "attachments": []
+  },
+  {
+    "date": "2 semanas",
+    "author": "Facundo Ezequiel Diaz Cappella",
+    "context": "💬 Español\n\n¿Estás usando la IA para validar tus ideas… o solo para ejecutarlas? 🤔\n\nHace poco me topé con el trabajo de \nhashtag\n#MattPocock, ingeniero de software conocido por su profundidad técnica y perspectiva sobre el desarrollo moderno. Uno de sus repositorios en GitHub acumula más de 51.9K estrellas.\n\nEntre sus *skills* para mejorar la productividad con IA (o hacerla mas efectiva), hay una que me mas me gusto personalmente: **\"Grill Me\"**.\n\nLa premisa es simple pero muy poderosa: en lugar de pedirle a la IA que ejecute tu plan, le pides que lo interrogue sin piedad. Que explore cada rama del árbol de decisiones. Que resuelva dependencias. Que te dé su recomendación en cada punto problemático.\n\nEn otras palabras, usas la IA en contra de tu idea, no como cámara de eco.\n\nEsto ayuda a construir un plan técnico más robusto antes de escribir la primera línea de código. 💡\n\n---\n\n💬 English\n\nAre you using AI to validate your ideas, or just to execute them? 🤔\n\nI recently came across the work of \nhashtag\n#MattPocock, a software engineer with a sharp and refreshing perspective on modern development. One of his GitHub repositories has crossed 51.9K stars.\n\nAmong his productivity-focused AI skills, one stopped me: **\"Grill Me\"**.\n\nThe concept is simple: instead of asking AI to carry out your plan, you ask it to interrogate it relentlessly. Walk down every branch of the decision tree. Resolve dependencies. Offer a recommended answer at every point of friction.\n\nIn short, use AI against your technical plan, not as a yes-machine.\n\nThis forces you to build something stronger before you write the first line of code. 💡\n\nLink to original article in the comment section.",
+    "images": [],
+    "attachments": []
+  },
+  {
+    "date": "1 día",
+    "author": "Facundo Ezequiel Diaz Cappella",
+    "context": "💬 Español\n\nNavegando por internet me encontré con una herramienta CLI que me pareció muy interesante en el mundo de los agentes de IA. 🤖\n\nSe trata de una solución que puedes conectar directamente con tu asistente de código favorito, ya sea Gemini, Claude o Codex, y que te permite desplegar agentes en Google Cloud siguiendo buenas prácticas, todo alineado con el framework ADK (Agent Development Kit), también desarrollado por Google.\n\nLo que más me llama la atención es la propuesta integral que ofrece: no solo construyes el agente, sino que también puedes evaluarlo y desplegarlo de forma estructurada y reproducible. \n\nSi estás explorando arquitecturas de agentes o buscas una forma más ordenada de llevarlos a producción en Google Cloud, vale la pena echarle un vistazo. 👇\n\nLink al repositorio en los comentarios.\n\n---\n\n💬 English\n\nWhile browsing the web, I came across a CLI tool that caught my attention, especially for those of us exploring the AI agent space. 🤖\n\nIt's a solution you can connect directly to your favorite code assistant, Gemini, Claude, or Codex, and use to deploy agents on Google Cloud following best practices, all aligned with the ADK (Agent Development Kit) framework, also developed by Google.\n\nWhat stands out most is the end-to-end approach it offers: you don't just build the agent, you can also evaluate it and deploy it in a structured, repeatable way. Exactly the kind of tooling that closes the gap between experimentation and production.\n\nIf you're exploring agent architectures or looking for a cleaner path to getting them into production on Google Cloud, this one is worth a look. 👇\n\nLink to the repo in the comments.",
+    "images": [],
+    "attachments": []
+  },
+  {
+    "date": "1 semana",
+    "author": "Facundo Ezequiel Diaz Cappella",
+    "context": "💬 Español\n\nNavegando por linkedin encontre una herramienta muy interesante para ahorrar tokens. 🚀\n\nCuando usas LLMs de forma constante, lo que más valoras es obtener respuestas directas y sin rodeos. Menos ruido, más señal.\n\nEsta skill no solo optimiza tu consumo de tokens, sino que también te ayuda a sacarle el máximo partido a tu cuota mensual. 🧠\n\nSi trabajas con IA a diario, merece la pena echarle un vistazo.\n\n💬 English\n\nI came across a really interesting tool for saving tokens. 🚀\n\nWhen you're constantly working with LLMs, what you value most is getting straight-to-the-point responses. Less noise, more signal.\n\nThis skill not only optimizes your token consumption, it also helps you make the most out of your monthly quota. 🧠\n\nIf you work with AI on a daily basis, it's definitely worth checking out.",
+    "images": [
+      "https://i.postimg.cc/MHXgDNQv/caveman.jpg"
+    ],
+    "attachments": []
+  },
+  {
+    "date": "2 semanas",
+    "author": "Facundo Ezequiel Diaz Cappella",
+    "context": "💬 Español\n\nHace unas semanas, Karpathy propuso una idea interesante que podría cambiar parte del panorama actual de IA 🤯\n\nSe llama LLM Wiki, en lugar de usar una vector DB, la data vive en archivos Markdown que evolucionan y se enriquecen con el uso. Nada de ingestas estáticas, sino una base de conocimiento viva.\n\nLa arquitectura es:\n📚 Fuentes (verdad inmutable)\n🧠 Wiki (generado y mantenido por el LLM)\n⚙️ Esquema (reglas y workflows para el LLM)\n\nPuede funcionar muy bien en ciertos casos, y tengo curiosidad por ver hasta dónde llega 🚀\n\nDejo el link en comentarios si quieres verlo en detalle 👇\n\n💬 English \n\nA few weeks ago, \nhashtag\n#Karpathy proposed an interesting idea that could reshape part of the current AI landscape 🤯\nIt’s called LLM Wiki, instead of using a vector DB, data lives in evolving Markdown files that improve over time with usage. No static ingestion, but a living, growing knowledge base.\n\nThe architecture is:\n📚 Raw sources (immutable truth)\n🧠 Wiki (LLM-generated & maintained)\n⚙️ Schema (rules + workflows for the LLM)\n\nIt feels like a fresh approach for certain use cases, and I’m curious to see how far it can go 🚀\n\nLink in comments if you want to dive deeper, to the original proposal👇",
+    "images": [],
+    "attachments": []
+  },
+  {
+    "date": "3 días",
+    "author": "Facundo Ezequiel Diaz Cappella",
+    "context": "💬 Español \n\nHoy aparecen herramientas que van más allá de simplemente leer código. 🚀\nMe topé con un proyecto que convierte cualquier repositorio en un curso interactivo en HTML.\n\nLiteralmente: apuntas a una codebase y obtienes una página única, visual e interactiva que te enseña cómo funciona paso a paso. 🧠\n\nInteresante para experimentar con proyectos personales o open source que ya conocemos, y ver qué tan bien o mal interpreta distintos casos.\n\n\n💬 English \n\nTools are emerging that go beyond just reading code. 🚀\nI came across a project that turns any repository into an interactive HTML course.\n\nLiterally: point it at a codebase, and you get a single-page, visual experience that teaches you how it works step by step. 🧠\nInteresting to experiment with personal projects or open-source repos we already know, and see how well or poorly it handles different cases.\n\nlink in the comment section.",
+    "images": [],
+    "attachments": []
+  },
+  {
+    "date": "1 semana",
+    "author": "Facundo Ezequiel Diaz Cappella",
+    "context": "💬 Español\n\nCreo que trabajar en equipos pequeños, organizados por capacidad de negocio en lugar de por habilidad, es la mejor estrategia 🚀. Las responsabilidades se asignan considerando todas las dimensiones (tamaño del equipo, FE/BE, etc.), pero siempre alineadas con los resultados de negocio y la autonomía.\n\nCada equipo incluye:\n\nFrontend\nBackend\nDatos\nMentalidad DevOps\n\nEl equipo se encarga de:\n\nConstruir 🛠️\nDesplegar\nMonitorizar\nResolver incidencias\n\nAdemás, estos equipos suelen ser de larga duración, que:\n\nPoseen un dominio a lo largo del tiempo\nMejoran continuamente\nAsumen responsabilidad real ✅\n\nCon la era agentic, esto podria verse afectado el tamaño y la configuración de estos equipos, es algo que aún esta por verse.\n\n💬 English \n\nI believe that working in small teams, organized by business capability rather than by skill, is the way to go 🚀. Responsibilities are managed across all dimensions (team size, FE/BE split, etc.) while staying aligned with business outcomes and autonomy.\n\nEach team includes:\n\nFrontend\nBackend\nData\nDevOps mindset\n\nThe team owns:\n\nBuilding 🛠️\nDeploying\nMonitoring\nFixing\n\nThey are also long-lived teams, which:\n\nOwn a domain over time\nContinuously improve\nTake real accountability ✅\n\n\nWith the agentic era, the size and configuration of these teams may evolve, something we are still figuring out.\n\narticle recommendation in the comment section: \nhashtag\n#MartinFowler, Two Pizza Team",
+    "images": [],
+    "attachments": []
+  },
+  {
+    "date": "2 semanas",
+    "author": "Facundo Ezequiel Diaz Cappella",
+    "context": "💬 Español \n\nCosas que pasan, un error que ocurre más de lo que quisiéramos 😅\nElegir una tecnología solo porque nos encanta.\nProblemas simples terminan overengineered.\nLa herramienta correcta siempre gana ✅\n\n💬 English \n\nFunny thing, a mistake that happens more than we want 😅\nChoosing a tech just because it’s loved.\nSimple problems end up overengineered.\nRight tool always beats favorite tool ✅",
+    "images": [
+      "https://i.postimg.cc/Px1bPKxd/post-image-manning.jpg"
+    ],
+    "attachments": []
+  },
+  {
+    "date": "3 días",
+    "author": "Facundo Ezequiel Diaz Cappella",
+    "context": "💬 Español \nHe estado siguiendo esta compañía desde hace un tiempo y creo que siempre está innovando en el ámbito de la IA 🤖✨.\n\nAhora están organizando un evento muy interesante, con regsitro gratis en Amsterdam 🇳🇱\n\n\n💬 English \nI’ve been following this company for a while now, and I think they’re consistently innovating in the AI space 🤖✨.\n\nNow they’re organizing a very interesting event, with free registration in Amsterdam 🇳🇱\n\nYou can check it out here: https://lnkd.in/e_DteXsb",
+    "images": [],
+    "attachments": []
+  },
+  {
+    "date": "5 días",
+    "author": "Facundo Ezequiel Diaz Cappella",
+    "context": "Dejo una visión más optimista sobre la IA y el futuro de los puestos de trabajo en el área del software 🤖✨.\nEs la perspectiva de un CEO 👨‍💼, lo que la hace aún más interesante al contrastarla con la de otros líderes. 💡\n\nhttps://lnkd.in/et22BNvz 🍿🍿🍿🍿",
+    "images": [],
+    "attachments": []
+  },
+  {
+    "date": "1 semana",
+    "author": "Facundo Ezequiel Diaz Cappella",
+    "context": "💬 Español\n\n🤖 MCP vs. CLI: ¿sabes realmente cuándo usar cada uno?\n\nEncontré un análisis muy claro de CircleCI que pone este debate en perspectiva.\n\nEl resumen:\n\n⚡ CLI destaca cuando necesitas:\n→ Iteración local rápida\n→ Costo de ventana de contexto casi nulo\n→ Configuración simple\n→ Alta familiaridad del modelo (training data)\n\n🔌 MCP gana cuando necesitas:\n→ Coordinación con sistemas externos (de forma nativa)\n→ Autenticación centralizada a nivel de servidor\n→ Salida JSON consistente entre herramientas\n→ Registro de auditoría\n→ Orquestación entre sistemas sin scripting\n\nEl verdadero aprendizaje: no son herramientas que compiten entre sí, sirven para momentos distintos dentro de tu flujo de trabajo.\n\nCLI = muévete rápido, itera en local\nMCP = orquesta sistemas, escala con fiabilidad\n\nA medida que el desarrollo potenciado por IA madura, saber CUÁNDO usar cada uno marcará la diferencia entre los equipos que entregan rápido y los que entregan rápido Y de forma confiable.\n\nArtículo completo en los comentarios 👇\n\n💬 English\n\n🤖 MCP vs. CLI, do you actually know when to use each one?\n\nI came across a great breakdown by CircleCI that finally puts this debate into perspective.\n\n⚡ CLI shines when you need:\n→ Fast local iteration\n→ Near-zero context window cost\n→ Low setup complexity\n→ High model familiarity (training data)\n\n🔌 MCP wins when you need:\n→ External system coordination (natively)\n→ Centralized authentication at the server level\n→ Consistent JSON output across tools\n→ Built-in audit logging\n→ Cross-system orchestration without scripting nightmares\n\nThe real insight? These aren't competing tools, they serve different moments in your workflow.\n\nCLI = move fast, iterate locally\nMCP = orchestrate systems, scale reliably\n\nAs AI-powered development matures, knowing WHEN to use each will separate teams that ship fast from teams that ship fast AND reliably.\n\nFull article in the comments 👇",
+    "images": [
+      "https://i.postimg.cc/50k0rvRS/mcp.jpg"
+    ],
+    "attachments": []
+  },
+  {
+    "date": "1 semana",
+    "author": "Facundo Ezequiel Diaz Cappella",
+    "context": "💬 Español\n\n🤖 El protocolo Agent2Agent (A2A), lanzado por Google en abril de 2025, es un estándar abierto que permite a los agentes de IA de distintas plataformas comunicarse entre sí, delegar tareas y colaborar, sin exponer su lógica interna.\n\nPiénsalo como un lenguaje universal para agentes de IA.\n\nMientras que MCP (Model Context Protocol) conecta agentes con herramientas y datos, A2A se encarga de la coordinación entre agentes. Juntos, están sentando las bases de sistemas multiagente verdaderamente autónomos.\n\nYa cuenta con el respaldo de más de 100 empresas, entre ellas Microsoft, Atlassian, Salesforce y Workday, y ahora está bajo la gobernanza de la Linux Foundation.\n\nEsto es infraestructura de base. Vale la pena prestarle atención 👇 Para ver el artículo inicial, revisa la sección de comentarios.\n\n💬 English\n\n🤖 The Agent2Agent (A2A) protocol, launched by Google in April 2025, is an open standard that lets AI agents from different platforms talk to each other, delegate tasks, and collaborate, without exposing their internal logic.\n\nThink of it as a universal language for AI agents.\n\nWhile MCP (Model Context Protocol) connects agents to tools and data, A2A handles agent-to-agent coordination. Together, they're laying the foundation for truly autonomous multi-agent systems.\n\nAlready backed by 100+ companies including Microsoft, Atlassian, Salesforce, and Workday, and now governed by the Linux Foundation.\n\nThis is infrastructure-level stuff. Worth paying attention to the initial article check the comment section👇",
+    "images": [],
+    "attachments": []
+  },
+  {
+    "date": "1 semana",
+    "author": "Facundo Ezequiel Diaz Cappella",
+    "context": "Looks like Claude’s servers are having a Monday.",
+    "images": [
+      "https://i.postimg.cc/G2S2fY5k/claude.jpg"
+    ],
+    "attachments": []
+  },
+  {
+    "date": "3 días",
+    "author": "Facundo Ezequiel Diaz Cappella",
+    "context": "💬 Español\n\nPara los entusiastas de IA: webinar interesante el 16 de marzo. ¡Vale la pena echarle un vistazo!\n\n💬 English\n\nFor AI enthusiasts: interesting webinar on March 16. Worth checking out! \n\n Link: https://www.linkedin.com/pulse/game-time-starts-keynote-pregame-nvidia-gtc-live-nvidia-4xrlc?trackingId=6oUXN9D7TTOuAw0LZXTY3w%3D%3D&lipi=urn%3Ali%3Apage%3Ad_flagship3_detail_base%3BiXXqtPX%2FTzq%2FeYmKRQpqwA%3D%3D ",
+    "images": [],
+    "attachments": []
+  },
+  {
+    "date": "5 días",
+    "author": "Facundo Ezequiel Diaz Cappella",
+    "context": "💬 Español\n\n¿Quieres experimentar con IA pero no quieres pagar por una API?\n 🙋‍♂️ Te entiendo perfectamente.\n\nHace poco encontré un repositorio en GitHub que se ha convertido en mi referencia favorita: free-llm-api-resources, creado por @cheahjs. \n\nCon más de 14k⭐ en GitHub, este proyecto recopila de forma organizada todas las opciones legítimas para acceder a APIs de LLMs de forma gratuita o con créditos de prueba.\n\nSi estás construyendo un bot, probando un agente, aprendiendo sobre LLMs o simplemente quieres experimentar sin gastar un centavo.\n\n💬 English\n\nWant to experiment with AI without paying for an API? \n🙋‍♂️ You're not alone.\n\nI recently came across a GitHub repository that's become my go-to reference: free-llm-api-resources, maintained by @cheahjs. \n\nWith over 14k⭐ on GitHub, this project neatly compiles every legitimate option to access LLM APIs for free or with trial credits.\n\nWhether you're building a bot, testing an agent, learning about LLMs, or just exploring without spending a dime.\n\n\nhashtag\n#LLM \nhashtag\n#ArtificialIntelligence \nhashtag\n#AITools \nhashtag\n#MachineLearning \nhashtag\n#OpenSource\n\n\nSource: https://lnkd.in/gy79M4iQ",
+    "images": [],
+    "attachments": []
+  },
+  {
+    "date": "1 semana",
+    "author": "Facundo Ezequiel Diaz Cappella",
+    "context": "💬 Español\nAlgunos hallazgos del Stanford 100k Devs Study que me parecen interasante 🧵\n\nLa IA no rinde igual en todos los contextos:\n\n🟢 Greenfield (proyectos nuevos): La IA brilla. En tareas de baja complejidad, las ganancias de productividad pueden llegar al 30–40%.\n\n🔴 Brownfield (código legacy): La historia cambia. En proyectos complejos ya establecidos, las ganancias caen al 0–10%... y en algunos casos la productividad baja, por el tiempo perdido corrigiendo bugs generados por la IA.\n\n¿Quieres profundizar? La presentación completa está en YouTube, es larga, así que prepárate un café ☕. Y si quieres una experiencia diferente, prueba procesarla con NotebookLM y hazle tus preguntas directamente.\n\n💬 English\n\nSome findings from the Stanford 100k Devs Study that really resonate with me 🧵\n\nAI performance varies drastically depending on where you're working:\n\n🟢 Greenfield (new projects): AI thrives. For low-complexity, new tasks, productivity gains can reach 30–40%.\n\n🔴 Brownfield (legacy code): A very different story. For high-complexity tasks in established codebases, gains drop to 0–10% — and in some cases AI actually decreases productivity, due to time spent fixing AI-generated bugs.\n\nThe full presentation is on YouTube, it's a long one, so grab a coffee ☕. And if you want to go deeper the AI-era way, load it into NotebookLM and just ask it your questions.\n\nStanford University",
+    "images": [
+      "https://i.postimg.cc/sfJsC5Gd/stanford.jpg"
+    ],
+    "attachments": []
+  },
+  {
+    "date": "18 horas",
+    "author": "Facundo Ezequiel Diaz Cappella",
+    "context": "💬 Español\n¿Qué tan bien codifica realmente un modelo de lenguaje? 🤔\nHace poco me topé con AutoCodeBench, un benchmark desarrollado por el equipo Hunyuan de Tencent que me parece interesanten y no solo porque evalúa la generación de código entre los principales LLMs, sino porque también establece comparaciones entre distintos lenguajes de programación. Eso le da una dimensión extra que no siempre se ve en este tipo de rankings. 🧑‍💻\nAún no incluye modelos como Claude Opus 4.6, aunque en este ritmo de la industria, donde todo avanza a velocidad IA, estoy seguro de que las actualizaciones llegarán pronto. ⚡\n\nAhora bien, aprovecho para compartir una reflexión que siempre tengo presente: los benchmarks son una brújula, no un oráculo. 🧭\nSon útiles para detectar patrones, comparar tendencias y orientar decisiones técnicas. Pero reducir la elección de un modelo a un número en una tabla sería un error. El contexto de uso, la integración, el costo, la latencia y la experiencia real del equipo pesan tanto o más que cualquier posición en un leaderboard.\n\nÚsalos como punto de partida, no como punto de llegada. 🎯\n\n💬 English\nHow well does a language model actually code? 🤔\nI recently came across AutoCodeBench, un benchmark desarrollado por el equipo Hunyuan de Tencent que me parece interesante, not just because it evaluates code generation across leading LLMs, but because it also draws comparisons across different programming languages. That cross-language dimension adds a layer of insight you don't often see in these kinds of leaderboards. 🧑‍💻\nIt doesn't yet include models like Claude Opus 4.6, but given the pace of this industry, where everything moves at AI speed, I'm confident updates are on the way. ⚡\n\nThat said, I always come back to the same reminder: benchmarks are a compass, not a crystal ball. 🧭\n\nThey're valuable for spotting patterns, tracking trends, and informing technical decisions. But reducing model selection to a single leaderboard score would be a mistake. Real-world use case, integration complexity, cost, latency, and team experience all carry just as much weight — if not more — than any ranking.\n\nUse them as a starting point, not a final answer. 🎯\nTencent",
+    "images": [
+      "https://i.postimg.cc/t4fz1YpP/1.jpg"
+    ],
+    "attachments": [],
+    "id": 1
+  },
+  {
+    "date": "1 semana",
+    "author": "Facundo Ezequiel Diaz Cappella",
+    "context": "Important Startup Acronyms: \n\n📊 MRR – Monthly Recurring Revenue\n📈 ARR – Annual Run Rate (A bold yearly forecast powered by today's optimism)\n💸 CAC – Customer Acquisition Cost (How much it costs to convince strangers to trust your product)\n🔥 BR – Burn Rate (Your next moment of panic)",
+    "images": [],
+    "attachments": [],
+    "id": 2
+  },
+  {
+    "date": "1 hora",
+    "author": "Facundo Ezequiel Diaz Cappella",
+    "context": "💬 Español\n\nEl otro día me crucé con un post de un founder contando que tenían que cerrar su startup por motivos completamente ajenos al producto y al equipo.\n\nAutomáticamente me puse a pensar en el proceso de cierre 😔\n\nEn algún punto seguro hay un: terraform destroy.\n\n\n-¿Último deploy solo para decir adiós?\n-¿Se borra el repo o se deja en modo “arqueología digital”?\n\nDetrás del romanticismo emprendedor, también hay scripts, pipelines… y silencios. Se te ocurren algo mas?\n\n💬 English\n\nThe other day I came across a post from a founder saying they had to shut down their startup for reasons completely unrelated to the product or the team.\n\nMy brain immediately jumped to the shutdown process 😔\n\nAt some point, there has to be a terraform destroy.\n\n-A final deploy just to say goodbye?\n-Do you delete the repo… or leave it there as digital archaeology?\n\nBehind the startup romance, there are also scripts, pipelines… and silence.\n\n\nhashtag\n#sadMoment \nhashtag\n#iterative \nhashtag\n#cycles",
+    "images": [],
+    "attachments": [],
+    "id": 3
+  },
+  {
+    "date": "2 días",
+    "author": "Facundo Ezequiel Diaz Cappella",
+    "context": "💬 Español\n\n¿Estás trabajando en tu TFM o redactando un whitepaper académico? 📚\n\nEste proceso puede ser muy tedioso: formatear en LaTeX, ajustar cada referencia APA, luchar con la normalización del documento... \nAunque herramientas como Overleaf han facilitado el camino, el trabajo sigue siendo tedioso y consumiendo horas preciosas que preferirías dedicar a tu investigación.\n\nAquí es donde OpenAI marca la diferencia con Prism ✨, una herramienta diseñada específicamente para científicos y académicos que automatiza toda esa parte tediosa del proceso de escritura académica.\n\nImagina poder concentrarte en lo que realmente importa: tus ideas, tu investigación, tus conclusiones. Mientras Prism se encarga del resto.🚀\n\n💬 English\n\nWorking on your master's thesis or writing an academic whitepaper? 📚\n\nThis process could be painful wrestling with LaTeX formatting, perfecting APA citations, normalizing every element of the document... \nWhile tools like Overleaf have helped, the work remains tedious and drains time you'd rather spend on actual research.\n\nThis is where OpenAI's Prism changes the game ✨ , a tool specifically designed for scientists and academics that handles all those tedious aspects of the academic writing process.\n\nImagine focusing on what truly matters: your ideas, your research, your findings. While Prism takes care of the rest 🚀\n\n\nhashtag\n#AcademicWriting \nhashtag\n#prism \nhashtag\n#OpenAI",
+    "images": [
+      "https://i.postimg.cc/vZjv1cbt/4.jpg"
+    ],
+    "attachments": [],
+    "id": 4
+  },
+  {
+    "date": "2 días",
+    "author": "Facundo",
+    "context": "💬 Español\n\n¿Cuando exactamente la IA falla en la generación de código?\n\nTe dejo este review con más de 7.2 M de views, donde se mencionan varios puntos.\n\nProbablemente hayas notado algunas de estas fallas si estuviste experimentando recientemente.\n\nDisclaimer: este review no incluye Opus 4.6.\n\n💬 English\n\nWhen exactly does AI fail at code generation?\n\nI’m sharing this review with over 7.2M views, where several key points are discussed.\n\nYou’ve probably noticed some of these failures if you’ve been experimenting recently.\n\nDisclaimer: this review does not include Opus 4.6.\n\nhttps://lnkd.in/eQ-QAsmn\n\n\nhashtag\n#humanintheloop \nhashtag\n#andrejkarpathy",
+    "images": [],
+    "attachments": [
+      "https://lnkd.in/eQ-QAsmn",
+      "https://x.com/karpathy/status/2015883857489522876?s=20"
+    ],
+    "id": 5
+  },
+  {
+    "date": "3 días",
+    "author": "Facundo",
+    "context": "💬 Español\nHas creado tu agente RAG, pero ¿ya tienes una pipeline de evaluación antes de llevarlo a producción? 🚀\n\nHay varias soluciones en el mercado. Una opción que puedes revisar es Ragas: es open source, está bien documentada y permite evaluar distintas métricas 📊\n\nGrandes empresas ya la están usando.\n\nRecuerde la clave está en elegir la herramienta que mejor se adapte a tu flujo de trabajo. ¿Cuál usas tú? 🔍\n\n💬 English\nYou’ve built your RAG agent, but do you already have an evaluation pipeline in place before taking it to production? 🚀\n\nThere are several solutions on the market. One option worth checking out is Ragas: it’s open source, well documented, and allows you to evaluate different metrics 📊\n\nLarge companies are already using it.\n\nRemember, the key is choosing the tool that best fits your workflow. Which one do you use? 🔍\n\n\nhashtag\n#AIEvaluation \nhashtag\n#LLMTesting \nhashtag\n#MLOps \nhashtag\n#Ragas",
+    "images": [
+      "https://i.postimg.cc/9QSB4rCB/6.jpg"
+    ],
+    "attachments": [],
+    "id": 6
+  },
+  {
+    "date": "1 semana",
+    "author": "Facundo",
+    "context": "¿Tú cuál eliges? 🤣 \n\n\nhashtag\n#happyFriday \nhashtag\n#nanobanana",
+    "images": [
+      "https://i.postimg.cc/6pSh7ytV/7.jpg"
+    ],
+    "attachments": [],
+    "id": 7
+  },
+  {
+    "date": "1 semana",
+    "author": "Facundo",
+    "context": "¿Eres estudiante, te apasiona crear y experimentar? 🎓💻\n\n\nhashtag\n#CursorPro está disponible gratis durante un año completo para estudiantes. \n\nTengo entendido que requieren un correo electrónico con extensión .edu para acceder a esta subscripcion pro.\n\nRevisa las condiciones y aprovecha este beneficio. 🚀\n\nLos estudiantes de las mejores universidades del mundo ya lo estan haciendo.",
+    "images": [
+      "https://i.postimg.cc/wjPkt7gX/8.jpg"
+    ],
+    "attachments": [],
+    "id": 8
+  },
+  {
+    "date": "1 semana",
+    "author": "Facundo",
+    "context": "My last prompt this morning:\n\"What profession could I learn in 11 months with a steady income and good future prospects?\"\n\nI used deep thinking, I don’t wanna waste my time.\n\nCan you guess the answer? I probably need to wait for the new version.\n\n\nhashtag\n#promptEngineering",
+    "images": [],
+    "attachments": [],
+    "id": 9
+  },
+  {
+    "date": "1 semana Editado",
+    "author": "Facundo",
+    "context": "💬 Español\n\n¿Construyendo tu proyecto personal y necesitas ayuda con version bumps, code reviews o bug fixes? 🚀\n\nTe presento Jules, el agente de código autónomo de Google. Tú defines qué puede hacer.\n\nLo mejor: Tienen un plan gratuito (15 tareas/día).\n\nJules trabaja directo con GitHub, te muestra los cambios antes de aplicarlos y crea PRs listos para mergear.💻\n\n💬 English\n\nBuilding your personal project and need help with version bumps, code reviews, or bug fixes? 🚀\n\nMeet Jules, Google's autonomous coding agent. You define what it can do and how much access it has to your repo.\n\nThe best part: Plans starts from free (15 tasks/day) to scalable options for complex workflows.\n\nJules works directly with GitHub, shows changes before applying them, and creates merge-ready PRs.💻\n\n\nhashtag\n#Jules \nhashtag\n#DeveloperTools \nhashtag\n#AI \nhashtag\n#GitHub",
+    "images": [
+      "https://i.postimg.cc/JzgQyGMT/10.jpg"
+    ],
+    "attachments": [],
+    "id": 10
+  },
+  {
+    "date": "1 semana",
+    "author": "Facundo",
+    "context": "When a recruiter asks how many years of experience do you have: \n\n\nhashtag\n#nanobanana \nhashtag\n#happyweekend",
+    "images": [
+      "https://i.postimg.cc/sg8JBvsH/11.jpg"
+    ],
+    "attachments": [],
+    "id": 11
+  },
+  {
+    "date": "2 semanas",
+    "author": "Facundo",
+    "context": "💬 Español\n\nTe comparto una colección de skills para potenciar Claude Code, Gemini CLI, Cursor y otras herramientas de IA. \n\nFunciona universal en todos lados.\nIncluye skills variadas como: infrastructure, seguridad, AI agents, marketing, diseño. \n\nTambien vienen con skills oficiales de Anthropic, Google, Vercel y contribuciones de la comunidad. \n\nSi trabajas con cualquier IDE de IA, vale la pena revisar.\n\nhttps://lnkd.in/eRQfHkSa\n\n💬 English\n\nFound a library of reusable skills for Claude Code, Gemini CLI, Cursor, and other AI coding tools. Works universally across all of them.\n\nCovers infrastructure, security, AI agents, marketing, design, basically everything. \n\nBuilt with official skills from Anthropic, Google, and Vercel, plus community contributions. \n\nIf you're using any AI IDE, worth checking out.\n\nhttps://lnkd.in/eRQfHkSa\n\n\nhashtag\n#AIAgents \nhashtag\n#ClaudeCode \nhashtag\n#DevTools \nhashtag\n#Cursor \nhashtag\n#Antigravity",
+    "images": [],
+    "attachments": [
+      "https://lnkd.in/eRQfHkSa",
+      "https://github.com/sickn33/antigravity-awesome-skills"
+    ],
+    "id": 12
+  },
+  {
+    "date": "2 semanas",
+    "author": "Facundo",
+    "context": "💬 Español\n\n¿Has escuchado hablar de \nhashtag\n#ChaosTesting? 🔥\n\nEs una disciplina fascinante que va más allá de las pruebas convencionales: inyectar errores deliberadamente en tus sistemas para ver cómo reaccionan ante lo inesperado. 💪\n\nLas empresas más grandes del mundo lo usan:\n\n * Netflix lanzó su \"Simian Army\": un conjunto de herramientas donde apaga servidores durante el horario de negocio para validar la recuperación del sistema.\n * AWS conduce \"GameDay\", Amazon deliberadamente inyecta fallos para probar su confiabilidad. \n * Google ejecuta su anual \"DiRT\" simulando escenarios catastróficos. \n * Facebook usa \"Project Storm\".\n\nMas detalles aqui: \n\nhttps://lnkd.in/eYtq_cxW\n\n¿Tu arquitectura está lista para el caos?\n\n💬 English\n\nEver heard of \nhashtag\n#ChaosTesting? 🔥\n\nIt's a discipline that goes beyond traditional testing: deliberately inject errors into your systems and observe how they respond to the unexpected. 💪\n\nThe world's biggest companies already get it.\n\n * Netflix built their \"Simian Army\" a toolkit where shuts down servers during business hours to validate system recovery.\n * AWS runs \"GameDay\", where Amazon intentionally injects failures to test reliability. \n * Google executes annual \"DiRT\" exercises simulating catastrophic scenarios. \n * Facebook leverages \"Project Storm\" to measure impact on user experience.\n\nIs your architecture ready for the chaos?\n\n\nhashtag\n#ChaosTesting \nhashtag\n#SoftwareEngineering \nhashtag\n#DevOps \nhashtag\n#SystemResilience \nhashtag\n#QualityAssurance\n\nsource: https://lnkd.in/eYtq_cxW",
+    "images": [],
+    "attachments": [
+      "https://lnkd.in/eYtq_cxW",
+      "https://www.linkedin.com/pulse/chaos-testing-software-engineering-examples-tools-templates-ghodke-tcxlc?trackingId=xG3mc%2BMbzoMObEl3pkNO6A%3D%3D",
+      "https://www.linkedin.com/newsletters/software-testing-sapiens-7136383102213394434"
+    ],
+    "id": 13
+  },
+  {
+    "date": "3 semanas",
+    "author": "Facundo",
+    "context": "💬 Español\n\nPotencia tu IDE con Context 7 MCP 🎯\n\nConoce Context 7 MCP 💡\n\nCon esta poderosa integración, tu IDE obtiene acceso instantáneo a la documentación más reciente de cualquier tecnología, lenguaje o framework. 📚✨\n\n⚡ Referencias en tiempo real y actualizadas mientras codificas\n🎯 Generación de código impulsada por IA respaldada por los estándares tecnológicos más nuevos \n\n\nTe recomiendo que experimentes con esto. ¡Pruébalo y comparte tus opiniones!🎨💻\n\n💬 English\n\nSupercharge Your IDE with Context 7 MCP 🎯\n\nMeet Context 7 MCP 💡\n\nWith this powerful integration, your IDE gains instant access to the latest documentation for any technology, language, or framework. 📚✨\n\n⚡ Real-time, up-to-date references while coding \n🎯 AI-powered code generation backed by the newest tech standards\n\nI highly recommend you experiment with this. Give it a shot and share your thoughts!🎨💻\n\n\n👉 Check it out: https://context7.com/\n\n\nhashtag\n#CodeEditor \nhashtag\n#DeveloperTools \nhashtag\n#MCP \nhashtag\n#AI \nhashtag\n#Productivity \nhashtag\n#TechInnovation",
+    "images": [],
+    "attachments": [
+      "https://context7.com/"
+    ],
+    "id": 14
+  },
+  {
+    "date": "3 semanas",
+    "author": "Facundo",
+    "context": "Según #McKinsey la mayoría de las transformaciones digitales con IA fracasan.\n\nTres Movimientos Ganadores:\n\n🎯 Objetivos Claros: Enfócate en 3-4 prioridades, no 100+ proyectos. La alineación gana.\n📋 Planificación Inteligente: Prepárate bien antes de ejecutar. Los detalles importan.\n⚡ Ritmo Sostenible: Equilibra innovación con desarrollo de capacidades y mejora de sistemas antiguos. \n\n\nTu transformación no es un sprint. Es una temporada 💪",
+    "images": [],
+    "attachments": [
+      "https://lnkd.in/e6ZeYm7J",
+      "https://www.mckinsey.com/capabilities/implementation/our-insights/the-athletes-mindset-for-digital-and-ai-transformation?cid=cl4c-cml&sid=CL4C",
+      "https://www.linkedin.com/feed/update/urn:li:activity:7417559613375541248/"
+    ],
+    "id": 15
+  },
+  {
+    "date": "3 semanas",
+    "author": "Facundo",
+    "context": "💬 Español\n\n**¿Alguna vez te preguntaste cómo surgió la arquitectura de Microservicios?** 🤔\n\n**📚 Un poco de historia**\n\nA principios de los 2000, ganó popularidad la arquitectura #SOA (Arquitectura Orientada a Servicios), un modelo que buscaba mayor independencia en las soluciones empresariales mediante la descomposición en servicios. En aquella época, los #WebServices y #XML eran tecnologías predominantes 😄.\n\nCon el tiempo, este paradigma evolucionó hacia la arquitectura de #Microservicios, un enfoque más refinado que enfatiza servicios verdaderamente pequeños, desacoplados e independientemente desplegables. 🏗️\n\nAunque otros autores ya hablaban sobre esta arquitectura anteriormente, el artículo de #MartinFowler y #JamesLewis es uno de los más populares en internet. ¡Puedes consultarlo aquí! ⬇️\n\nhttps://lnkd.in/epGsVZdJ\n\nOtros autores como #RobertCMartin (#UncleBob) contribuyeron significativamente a la divulgación de estos principios y, lo más importante, a explicar cuándo y por qué era conveniente aplicarla. ✅\n\n**🎯 Antes de elegir una arquitectura...\n\nEs fundamental comprender cuál es el problema que necesitas solucionar. No existe una bala de plata.\n\nSi quieres profundizar en principios de arquitectura y diseño de software, puedes chequear el libro #CleanArchitecture de Robert C. Martin. 📖 Es del 2017 pero es una buena lectura.\n\n💬 English\n\nEver wondered how the Microservices architecture came to be?** 🤔\n\n**📚 A bit of history**\n\nIn the early 2000s, #SOA (Service-Oriented Architecture) gained popularity, a model that sought greater independence in enterprise solutions through service decomposition. Back then, #WebServices and #XML were the dominant technologies 😄.\n\nOver time, this paradigm evolved into #Microservices architecture, a more refined approach that emphasizes truly small, loosely coupled, and independently deployable services. 🏗️\n\nWhile other authors had discussed this architecture before, the article by #MartinFowler and #JamesLewis is one of the most influential. Check it out here! ⬇️\n\n https://lnkd.in/epGsVZdJ\n\nOther authors like #RobertCMartin (#UncleBob) significantly contributed to spreading these principles and, more importantly, to explaining when and why it makes sense to apply them. ✅\n\n**🎯 Before choosing an architecture...**\n\nIt's fundamental to understand the problem you need to solve.\n\n---\n\n#Microservices #SOA #SoftwareArchitecture #MartinFowler #JamesLewis #Development #TechHistory",
+    "images": [],
+    "attachments": [
+      "https://lnkd.in/epGsVZdJ",
+      "https://martinfowler.com/articles/microservices.html"
+    ],
+    "id": 16
+  },
+  {
+    "date": "4 semanas",
+    "author": "Facundo",
+    "context": "¿Has intentado desplegar infraestructura en AWS Management Console? ☁️\nPuede ser un trabajo complejo y muy tedioso.\n\nSi aún no lo has probado, te recomiendo \nhashtag\n#Terraform 🚀\nCon Terraform puedes desplegar infraestructura a través de código (\nhashtag\n#IaC), de una forma mucho más clara y mantenible.\n\nAlgunas ventajas clave:\n\n📦 Tu infraestructura queda versionada y guardada en un repositorio\n\n🔁 Puedes reproducir la misma infraestructura fácilmente usando la misma “receta”\n\n🌍 Es compatible con los principales proveedores cloud: \nhashtag\n#AWS, \nhashtag\n#GCP, \nhashtag\n#Azure y \nhashtag\n#Oracle\n\nAquí te dejo la documentación oficial, donde encontrarás tutoriales introductorios para cada proveedor 👇\n\nhttps://lnkd.in/e7iecuEy\n\nSi buscas algo mas simple a la hora de desplegar, te recomiendo usar otro tipo de soluciones \nhashtag\n#PaaS, algunas con opciones gratuitas.\n\n\nhashtag\n#Heroku - https://lnkd.in/eyT5ExwR\n\nhashtag\n#Render - https://render.com/\n\nhashtag\n#Railway - https://railway.com/\n\nhashtag\n#AWSAmplify - https://lnkd.in/eyq9Nhrf\n\nhashtag\n#Surge - https://surge.sh/\n\nhashtag\n#Vercel - https://vercel.com/",
+    "images": [
+      "https://i.postimg.cc/QdPqBHh4/17.jpg"
+    ],
+    "attachments": [
+      "https://lnkd.in/e7iecuEy",
+      "https://lnkd.in/eyT5ExwR",
+      "https://render.com/",
+      "https://railway.com/",
+      "https://lnkd.in/eyq9Nhrf",
+      "https://surge.sh/",
+      "https://vercel.com/"
+    ],
+    "id": 17
+  },
+  {
+    "date": "1 mes",
+    "author": "Facundo",
+    "context": "Felices Fiestas 🎄🎄",
+    "images": [
+      "https://i.postimg.cc/RZ8T3N4b/18.jpg"
+    ],
+    "attachments": [
+      "https://www.linkedin.com/feed/update/urn:li:activity:7408808525591863296/"
+    ],
+    "id": 18
+  },
+  {
+    "date": "1 mes",
+    "author": "Facundo",
+    "context": "💬 Español\n\n🚀 Aco es nuestro nuevo Asistente de Voz con IA 🤖\nSi estás buscando integrar la IA en tu negocio y crees que un asistente de voz puede marcar la diferencia, tienes que probar Aco 🤖 🎙️✨\n\n💬 English\n\n🚀 Aco is our new AI Voice Assistant 🤖\n If you’re looking to integrate AI into your business and believe a voice assistant can make a difference, you have to try Aco 🤖 🎙️✨",
+    "images": [],
+    "attachments": [
+      "https://www.linkedin.com/feed/update/urn:li:activity:7407434501628411904/"
+    ],
+    "id": 19
+  },
+  {
+    "date": "1 mes",
+    "author": "Facundo",
+    "context": "💬 Español\n\nDespués de tantos días de foco, café y mate ☕ 🧉 💪, en RAG Solutions migramos toda la infraestructura a AWS 🚀☁️\n\nComo festejo, lanzamos una nueva website 🌐✨🚀\n\n💬 English\n\nAfter so many days of focus, coffee, and mate ☕🧉💪, at RAG Solutions we migrated our entire infrastructure to AWS 🚀☁️\n\nAs a way to celebrate, we launched a new website 🌐✨🚀",
+    "images": [],
+    "attachments": [
+      "https://lnkd.in/e-bDvA-S",
+      "https://rag-solutions.online/",
+      "https://www.linkedin.com/feed/update/urn:li:activity:7406890890624933888/"
+    ],
+    "id": 20
+  },
+  {
+    "date": "1 mes",
+    "author": "Facundo",
+    "context": "La holiday season llegó a NVIDIA con este divertido mensaje de Jensen Huang 🎄🤖\nMontar tu IA local y privada 🚀💻\n ¿Qué opinas? ¿Es una buena oportunidad ahora o crees que los precios van a bajar? 📈🤔",
+    "images": [],
+    "attachments": [
+      "https://nvda.ws/4s22rTO",
+      "https://www.linkedin.com/feed/update/urn:li:activity:7406848106849480704/"
+    ],
+    "id": 21
+  },
+  {
+    "date": "2 meses",
+    "author": "Facundo",
+    "context": "Feliz de compartir que RAG Solutions fue aceptado en el programa \nhashtag\n#AWSActivate 😄🎉. Próximamente se vendrán nuevas cosas ✨🚀.",
+    "images": [
+      "https://i.postimg.cc/Sx5GXJkP/22.jpg"
+    ],
+    "attachments": [
+      "https://www.linkedin.com/feed/update/urn:li:activity:7403727553179320320/"
+    ],
+    "id": 22
+  },
+  {
+    "date": "2 meses",
+    "author": "Facundo",
+    "context": "💬 Español\n\nLlega el fin de año y, además de pasar buenos momentos con la familia y amigos, para algunos es el momento de hacer balances.\n\nComo nos tiene acostumbrados, \nhashtag\n#Google lanzó ayer su \nhashtag\n#GoogleYear, donde puedes ver todas las tendencias del ultimo año y lo más buscadas por los usuarios a nivel global o por país. Este año se añade el agregado de \nhashtag\n#Gemini, que hace que las búsquedas sean más conversacionales. Si sientes curiosidad por estas tendencias, como me pasa a mí, te dejo el enlace para que lo revises cuando tengas tiempo.\n\n💬 English\n\nAs the year comes to an end, and beyond spending quality time with family and friends, it’s also a moment for some to reflect and look back. As usual, \nhashtag\n#Google released its \nhashtag\n#GoogleYear report yesterday, where you can explore the most searched trends of the past year, both globally and by country. This year includes the addition of \nhashtag\n#Gemini, making searches more conversational. If you’re curious about these trends, as I am, here’s the link for you to check out whenever you have time.\n\n\nlink: https://lnkd.in/dYaBayi4",
+    "images": [],
+    "attachments": [
+      "https://lnkd.in/dYaBayi4",
+      "https://trends.withgoogle.com/year-in-search/2025/"
+    ],
+    "id": 23
+  },
+  {
+    "date": "2 meses Editado",
+    "author": "Facundo",
+    "context": "hashtag\n#HappyFriday\n\nPor si alguien se la perdio.\n\nlink: https://lnkd.in/ddsvSj5R",
+    "images": [
+      "https://i.postimg.cc/BnyC8X4V/24.jpg"
+    ],
+    "attachments": [
+      "https://lnkd.in/ddsvSj5R"
+    ],
+    "id": 24
+  },
+  {
+    "date": "2 meses",
+    "author": "Facundo",
+    "context": "💬 Español\n\n¿Te gustaría aprender sobre \nhashtag\n#Databricks?\n\nEsta plataforma, utilizada por grandes empresas, te permite crear todo tipo de soluciones de IA y análisis de datos en un mismo lugar.\nPuedes empezar con la versión gratuita y experimentar sin coste.\n\nAdemás, cuentas con una amplia variedad de formaciones gratuitas para aprender a usar la herramienta, y también puedes apoyarte en el contenido público disponible, ya que es una plataforma popular.\n\n💬 English\n\nWould you like to learn about \nhashtag\n#Databricks?\n\nThis platform, used by major companies, allows you to build all kinds of AI and data analytics solutions in one place.\n You can start with the free version and experiment at no cost.\n\nIn addition, you have access to a wide variety of free training resources to learn how to use the tool, and you can also rely on the publicly available content, as it is a popular platform.\n\n👉 https://lnkd.in/dg_sKgCe",
+    "images": [],
+    "attachments": [
+      "https://lnkd.in/dg_sKgCe"
+    ],
+    "id": 25
+  },
+  {
+    "date": "2 meses",
+    "author": "Facundo",
+    "context": "💬 Español\n\n¿Has pensado en montar tu propio LLM local? \n\nHay varios modelos abiertos y pequeños que funcionan muy bien \nhashtag\n#gptoss, \nhashtag\n#qwen3coder, \nhashtag\n#gemma3, algunos optimizados para tareas de código: autocompletado, corrección de code smells, refactors…\n\nLas ventajas de usar esto son claras: sin límites de tokens, gratuito y con privacidad. Creo que es algo a considerar. \n\nTen en cuenta que, aunque estos modelos son pequeños, requieren una tarjeta gráfica para ejecutar las inferencias en un tiempo adecuado.\n\nPara montarlo hay varias alternativas: puedes utilizar \nhashtag\n#Ollama, \nhashtag\n#LLMStudio, entre otras opciones. \nSi quieres empezar de forma sencilla, te recomiendo Ollama.\n\n\n\n💬 English\n\nHave you thought about running your own local LLM?\n\nThere are several small open models that work really well, \nhashtag\n#gptoss, \nhashtag\n#qwen3coder, \nhashtag\n#gemma3, some even optimized for coding tasks like autocompletion, code-smell detection, and refactoring.\n\nThe advantages are clear: no token limits, free to use, and fully private. It’s definitely something worth considering. \n\nKeep in mind that, even though these models are small, they still require a GPU to run inference in a reasonable amount of time.\n\nThere are several ways to set it up: you can use \nhashtag\n#Ollama, \nhashtag\n#LLMStudio, among other options.\n\nIf you want the simplest starting point, I recommend Ollama.\n\nhttps://ollama.com/",
+    "images": [],
+    "attachments": [
+      "https://ollama.com/"
+    ],
+    "id": 26
+  },
+  {
+    "date": "2 meses",
+    "author": "Facundo",
+    "context": "hashtag\n#OpenAI \nhashtag\n#Codex\n\n💬 Español\n\nHace un par de semanas, OpenAI presentó uno de sus nuevos productos con una demo que, desde mi punto de vista, fue bastante alegre. 😅 \n\nPara mí, parece el famoso sueño de un Product Owner: simplemente hablándole al agente, este crea las features de su webapp.\nPor las dudas, había un programador para validar las respuestas del agente.\n\nSi eres ingeniero de software, probablemente hayas escuchado un montón de historias sobre el \nhashtag\n#vibeCoding.\n\nHay distintas opiniones negativas: que no es ingeniería de software real, que es terrible.\nYo creo que es uno de los temas más controvertidos en la ingeniería de software hoy en día.\n\nMuchas startups se han construido usando vibe coding: algunas con historias de éxito y many others con failures.\n\nMi humilde opinión es que es una herramienta: si aprendes a usarla bien y encuentras el equilibrio adecuado, puede marcar una gran diferencia. Al mismo tiempo, también puede ser un gran error. Creo que por eso es tan controvertido, podrías terminar con una base de código enorme sin entender realmente cómo funciona internamente, con código duplicado, convenciones mezcladas, etc.\nAh, y que además no funcione.\n\nTambién hay muchas formas de usar vibe coding. En lugar de generar código, puedes usarlo para examinar una gran codebase con la que no estás familiarizado (siempre que tu empresa lo permita). De todos modos, también puede fallar, la IA no es perfecta, igual que los humanos.\n\n¿Tú qué opinas?\n\n--\n\n💬 English\n\nA couple of weeks ago, \nhashtag\n#OpenAI introduced one of its new products with a demo that, in my opinion, was quite cheerful. 😅\n\nTo me, it looks like the famous dream of every Product Owner: just by talking to the agent, it creates the features of your web app.\nAnd just in case, there was a developer there to validate the agent’s responses.\n\nIf you're a software engineer, you've probably heard tons of stories about \nhashtag\n#vibeCoding.\nThere are plenty of negative opinions: that it’s not real software engineering, that it’s terrible.\n\nI think it’s one of the most controversial topics in software engineering today.\nMany startups have been built using vibe coding: some with success stories, and many others with failures.\n\nMy humble opinion is that it’s a tool: if you learn how to use it well and find the right balance, it can make a big difference. At the same time, it can also be a huge mistake. I think that’s why it’s so controversial — you could end up with a massive codebase without really understanding how it works internally, with duplicated code, mixed conventions, etc.\nOh, and that it might not work, too.\n\nThere are also many ways to use vibe coding. Instead of generating code, you can use it to explore a large codebase you’re not familiar with (as long as your company allows it). Still, it can fail — AI isn’t perfect, just like humans.\n\nWhat do you think?\n\nhttps://lnkd.in/dQ6ztFXq",
+    "images": [],
+    "attachments": [
+      "https://lnkd.in/dQ6ztFXq",
+      "https://www.youtube.com/watch?v=fK_bm84N7bs"
+    ],
+    "id": 27
+  },
+  {
+    "date": "3 meses",
+    "author": "Facundo",
+    "context": "Understanding \nhashtag\n#LoRA\n\n💬 Español\n\nLoRA, que significa Low-Rank Adaptation, es una técnica popular para realizar fine-tuning en grandes modelos de lenguaje (LLMs) de manera más eficiente (más rápida y con menor costo). En lugar de ajustar todos los parámetros de una red neuronal profunda, LoRA se enfoca en actualizar solo un pequeño conjunto de matrices de bajo rango.\nPuede ver una explicación con un ejemplo en el enlace adjunto al final.\n\n💬 English\n\n\"LoRA, which stands for Low-Rank Adaptation, is a popular technique to finetune LLMs more efficiently. Instead of adjusting all the parameters of a deep neural network, LoRA focuses on updating only a small set of low-rank matrices.\"\n\nI recommend this article if you want to know more.\n\nsource: https://lnkd.in/dTcVWaKR\n\n\nhashtag\n#finetunning \nhashtag\n#pytorch \nhashtag\n#lowRankAdaptation",
+    "images": [],
+    "attachments": [
+      "https://lnkd.in/dTcVWaKR",
+      "https://lightning.ai/lightning-ai/environments/code-lora-from-scratch?section=featured"
+    ],
+    "id": 28
+  },
+  {
+    "date": "3 meses",
+    "author": "Facundo",
+    "context": "💬 Español\n\n¿Has escuchado estos nombres últimamente: Groq, Agno, Mastra, Nebius, LangChain, LlamaIndex?\n\nSuena como una nueva generación de Pokémon, ¿verdad? 😄\n\nPero no, en realidad son herramientas de Inteligencia Artificial que están moldeando el futuro de la tecnología.\n\nSi quieres saber más sobre ellas, échales un vistazo 👇\n\n1. \nhashtag\n#Groq\n\nQué es: Una empresa que desarrolla hardware especializado (ASICs) e infraestructura optimizada para la inferencia rápida de IA.\n Piénsalo como un motor súper eficiente para ejecutar modelos de lenguaje (LLMs) a gran velocidad.\n\n🔗 https://groq.com/\n\n2. \nhashtag\n#Agno\n\nQué es: Un framework emergente de agentes de IA diseñado para crear agentes modulares que puedan usar herramientas.\n\n🔗 https://www.agno.com/\n\n3. \nhashtag\n#Mastra\n\nQué es: Un framework en TypeScript / JavaScript para crear aplicaciones de IA.\nOfrece componentes básicos como agentes, memoria y flujos de trabajo.\n\n🔗 https://mastra.ai/\n\n4. \nhashtag\n#LangChain\n\nQué es: Uno de los frameworks más populares para construir aplicaciones basadas en modelos de lenguaje.\n Proporciona bloques modulares como plantillas de prompts, cadenas, agentes y memoria.\n\n🔗 https://www.langchain.com/\n\n5. \nhashtag\n#LlamaIndex\n\nQué es: Un framework de orquestación, indexación y recuperación de datos que conecta tus documentos, bases de datos o APIs con un LLM.\nIdeal para soluciones RAG (Retrieval-Augmented Generation).\n\n🔗 https://www.llamaindex.ai/\n\n6. \nhashtag\n#Nebius\n\nQué es: Una plataforma de nube e infraestructura enfocada en escalar cargas de trabajo de IA y LLMs.\nPiensa en clústeres de GPU, hosting e inferencia.\n\n🔗 https://nebius.com/\n\n--\n💬 English\n\nHave you heard these names lately: Groq, Agno, Mastra, Nebius, LangChain, LlamaIndex?\n\nSounds like a new Pokémon generation, right? 😄\n\nBut no, they’re actually AI tools shaping the future of tech.\n\nIf you want to learn more about them, check this out 👇\n\n1. \nhashtag\n#Groq\n\nWhat it is: A company building specialized hardware (ASICs) and infrastructure optimized for fast AI inference. Think of it as a super-efficient engine to run LLMs quickly. \n\n🔗 https://groq.com/\n\n2. \nhashtag\n#Agno\n\nWhat it is: A newer AI agent framework designed to let you build modular, tool-using AI agents.\nMedium\n\n🔗https://www.agno.com/\n\n3. \nhashtag\n#Mastra\n\nWhat it is: A TypeScript / JavaScript agent-framework that gives primitives (agents, memory, workflows) for building AI applications. \n\n🔗 https://mastra.ai/\n\n4. \nhashtag\n#LangChain\n\nWhat it is: A very popular framework for building applications around LLMs. It gives you modular building blocks: prompt templates, chains, agents, memory, etc. \nTechTarget\n\n🔗https://www.langchain.com/\n\n5. \nhashtag\n#LlamaIndex\n\nWhat it is: A data orchestration / indexing / retrieval framework for connecting your documents, databases, APIs to an LLM (for RAG: retrieval-augmented generation). \n\n🔗https://www.llamaindex.ai/\n\n6. \nhashtag\n#Nebius\n\nWhat it is: An AI cloud / infrastructure platform built for scaling AI / LLM workloads. Think GPU clusters, hosting, inference, etc. \nNebius.\n \n🔗https://nebius.com/",
+    "images": [],
+    "attachments": [
+      "https://groq.com/",
+      "https://www.agno.com/",
+      "https://mastra.ai/",
+      "https://www.langchain.com/",
+      "https://www.llamaindex.ai/",
+      "https://nebius.com/"
+    ],
+    "id": 29
+  },
+  {
+    "date": "3 meses",
+    "author": "Facundo",
+    "context": "Have you heard about \nhashtag\n#StructuredOutput?\n\n💬 Español\nEsta es una funcionalidad a tener en cuenta al integrar LLMs en tu solución de software, especially if you need the model to return output following a specific JSON format for your use case.\n\nSiempre puedes crear un prompt e indicar en lenguaje natural a el modelo que siga una estructura JSON específica. Este enfoque funciona en la mayoría de los casos, pero no podemos confiar en que los LLMs lo hagan perfectamente. Podrían generar JSON malformado o no seguir estrictamente el formato, por lo que normalmente necesitas añadir tu propia validación y, posiblemente, un mecanismo de reintento si la salida no es la esperada.\n\nAquí es donde el structured output se vuelve muy útil. Puedes definir tu esquema de salida al mismo tiempo que das las instrucciones al modelo, y este seguirá dicho esquema de manera estricta.\n\nCómo implementarlo dependerá del proveedor de LLM que estés usando.\n\n💬 English\nThis is a feature to consider when integrating LLMs into your software solution, especially if you need the model to return output following a specific JSON format for your use case.\n\nYou can create a prompt and indicate in natural language that the model should follow a specific JSON structure. This approach works in most cases, but we cannot trust LLMs to follow it perfectly. They might produce malformed JSON or not strictly adhere to the format, so you usually need to add your own validation and possibly a retry mechanism if the output is not as expected.\n\nThis is where structured output becomes very useful. You can define your output schema at the same time you provide instructions to the model, and it will follow this schema strictly.\n\nHow to implement it depends on your LLM provider. You can check some examples here:\n\nhttps://lnkd.in/dWXze4Rr\n\nhttps://lnkd.in/dG98rTPh\n\n\nhashtag\n#AI \nhashtag\n#LLM \nhashtag\n#JSON \nhashtag\n#AIIntegration \nhashtag\n#PromptEngineering \nhashtag\n#OpenAI \nhashtag\n#MistralAI \nhashtag\n#TechTips",
+    "images": [],
+    "attachments": [
+      "https://lnkd.in/dWXze4Rr",
+      "https://lnkd.in/dG98rTPh",
+      "https://docs.mistral.ai/capabilities/structured-output/structured_output_overview/"
+    ],
+    "id": 30
+  },
+  {
+    "date": "3 meses",
+    "author": "Facundo",
+    "context": "💬 Español\nBuena entrevista para entender lo básico en IA hoy en día. Siempre muy interesante escuchar la opinión de Chip Huyen.\n\n💬 English\nGreat interview to understand the basics of AI today. Always very interesting to hear Chip Huyen’s insights.\n\nhttps://lnkd.in/dZeYPbWC\n\n\nhashtag\n#InteligenciaArtificial \nhashtag\n#AI \nhashtag\n#ChipHuyen \nhashtag\n#TechTalks",
+    "images": [],
+    "attachments": [
+      "https://lnkd.in/dZeYPbWC",
+      "https://www.youtube.com/watch?v=qbvY0dQgSJ4"
+    ],
+    "id": 31
+  },
+  {
+    "date": "3 meses",
+    "author": "Facundo",
+    "context": "I finished reading AI Engineer by Chip Huyen a couple of weeks ago. Initially, I got the book just to read the specific chapter about “RAG”. However, after finishing that section, I decided to start from the beginning, and I have to say, I really enjoyed it.\n\nI believe it’s a difficult challenge to explain and describe such technical concepts in a clear and accessible way, but Chip truly masters this art.\n\nOverall, I think it’s a great read for any AI or software engineer.\nAlso, I’ve become curious about another of her books, Designing Machine Learning Systems, especially the chapter on Data Augmentation. I think I’ll give it a try soon.\n\n\nhashtag\n#AI \nhashtag\n#AIEngineer \nhashtag\n#RAG \nhashtag\n#TechBooks",
+    "images": [
+      "https://i.postimg.cc/cJnBf0LB/32.jpg"
+    ],
+    "attachments": [],
+    "id": 32
+  },
+  {
+    "date": "3 meses",
+    "author": "Facundo",
+    "context": "Prompt caching for faster model inference\n💬 Español\nLuego de varias pruebas y evaluaciones, encuentras el prompt que mejor funciona para tu software y estás realizando las inferencias a través de APIs.\n\nBueno, es el momento de probar prompt caching. Esta técnica te permite reducir la latencia y obtener respuestas mucho más rápidas.\n\n¿Cómo implementarlo? Dependerá de tu proveedor, ya que cada uno tiene su propia documentación y forma de hacerlo.\n\n💬 English\nAfter several tests and evaluations, you finally find the prompt that works best for your software and start making inferences through APIs.\n\nWell, it’s time to try prompt caching. This technique helps you reduce latency and get much faster responses.\n\nHow to implement it? That depends on your provider — each one has its own documentation and implementation method.\n\nmore info using AWS: https://lnkd.in/diys-wDm\n\n\nhashtag\n#PromptCaching \nhashtag\n#LLMOptimization \nhashtag\n#AIEngineering",
+    "images": [],
+    "attachments": [
+      "https://lnkd.in/diys-wDm",
+      "https://docs.aws.amazon.com/bedrock/latest/userguide/prompt-caching.html"
+    ],
+    "id": 33
+  },
+  {
+    "date": "4 meses",
+    "author": "Facundo",
+    "context": "Hyphens or No Hyphens – AI Stigmatization ?\n\nCould AI change the way we write and communicate?\n\nWhen using one of the public LLMs for text generation, you may have noticed that they often include a lot of hyphens in their outputs.\n\nIf we think about it, most LLMs are trained on reputable books and well edited sources, where grammar and punctuation are generally of high quality. Naturally, the models replicate those patterns.\n\nPersonally, I use LLMs to check the grammar of my texts, emails, or posts (please don’t overuse them for direct messages). I’m not a native English speaker, so my grammar is not perfect. To be honest, even in Spanish, which is my native language, grammar is not my strongest skill, so I use LLMs for that as well.\n\nI don’t have anything against hyphens, and in Spanish text generation this is usually not an issue(we don't use it). I actually think they can sometimes add clarity (I support hyphens). Still, I believe their use should be a personal choice of the author. You can always use alternatives like commas or parentheses instead.\n\nI found an interesting Reddit thread discussing this topic: https://lnkd.in/dJYgVGvJ\n\n(I used this prompt for this text \"check the grammar, please don´t use hypens\")\n\n\nhashtag\n#NLP \nhashtag\n#Curiosity \nhashtag\n#TextGeneration \nhashtag\n#LLMs \nhashtag\n#Hyphenation",
+    "images": [
+      "https://i.postimg.cc/BvKB24nc/34.jpg"
+    ],
+    "attachments": [
+      "https://lnkd.in/dJYgVGvJ"
+    ],
+    "id": 34
+  },
+  {
+    "date": "4 meses",
+    "author": "Facundo",
+    "context": "💬 Español\n\n🚀 ¿Has probado \nhashtag\n#Comet, el nuevo navegador de Perplexity? ¿Te ha convencido o prefieres seguir con tu navegador habitual? \n\nTodavía no he podido probarlo, ya que no está disponible para Linux… por ahora 😅.\n\n💬 English\n\n🚀 Have you tried \nhashtag\n#Comet, the new browser from Perplexity? Did it win you over, or are you sticking with your usual browser?\n\nI haven’t been able to test it yet since it’s not available for Linux… for now 😅\n\nlink: https://lnkd.in/dKNYs6t2\n\n\nhashtag\n#perplexity \nhashtag\n#automation",
+    "images": [],
+    "attachments": [
+      "https://lnkd.in/dKNYs6t2",
+      "https://www.perplexity.ai/comet"
+    ],
+    "id": 35
+  },
+  {
+    "date": "4 meses",
+    "author": "Facundo",
+    "context": "RuntimeError: CUDA out of memory\n💬 Español\nEstás entrenando un modelo y te encuentras con este error. Es uno de los errores más frecuentes al trabajar con datasets o grandes modelos. Dejo por aquí un artículo que explica las estrategias más comunes para evitarlo.\n\n💬 English\nYou’re training a model and come across this error. It’s one of the most common issues when working with large datasets or models. Here’s an article that explains the most common strategies to avoid it.\n\narticle: https://lnkd.in/dFisFQ_2\n\nimage from: https://lnkd.in/djUbFfFJ\n\n\nhashtag\n#ML \nhashtag\n#CUDA \nhashtag\n#PyTorch",
+    "images": [
+      "https://i.postimg.cc/QMTJchdq/36.jpg"
+    ],
+    "attachments": [
+      "https://lnkd.in/dFisFQ_2",
+      "https://lnkd.in/djUbFfFJ"
+    ],
+    "id": 36
+  },
+  {
+    "date": "4 meses",
+    "author": "Facundo",
+    "context": "💬 Español\n¿Alguna vez has pensado que el término GPU (Graphics Processing Unit) se ha quedado un poco desactualizado?\n\nHoy en día, las GPUs se utilizan mucho más para entrenar LLMs y modelos de IA que para videojuegos (procesamiento gráfico).\nEsta pregunta se le ha hecho en varias ocasiones al CEO de NVIDIA, y su respuesta es interesante: él considera que las GPUs son “procesadores paralelos de propósito general” (GPGPU).\nAun así, siguen usando el término GPU, ya que sigue siendo un estándar universalmente reconocido en la industria.\n\n💬 English\nHave you ever thought that the term GPU (Graphics Processing Unit feels outdated?\nNowadays, GPUs are used far more for training LLMs and AI models than for rendering video games.\nThis question has been raised multiple times to NVIDIA’s CEO, and his answer is interesting — he said that NVIDIA now sees GPUs as “general-purpose parallel processors.”(GPGPU)\nHowever, they continue to use the term GPU, since it’s still a universally recognized standard in the industry.\n\nPhoto from Nvidia.com: https://lnkd.in/d_-wfwQH\n\n\nhashtag\n#techcuriosity \nhashtag\n#GPGPU \nhashtag\n#nvidia",
+    "images": [
+      "https://i.postimg.cc/yNZy0s8j/37.jpg"
+    ],
+    "attachments": [
+      "http://nvidia.com/",
+      "https://lnkd.in/d_-wfwQH"
+    ],
+    "id": 37
+  },
+  {
+    "date": "4 meses",
+    "author": "Facundo",
+    "context": "💬 Español\n Te comparto mi colección de técnicas de prompt engineering que más uso al trabajar con LLMs e integrarlas en soluciones de software, por si te sirven.\n Si me falta alguna, por favor coméntala para que la agregue a mi colección personal.\n\n💬 English\n I’m sharing my collection of prompt engineering techniques that I use most often when working with LLMs and integrating them into software solutions, in case they’re useful to you.\n If I’m missing any, please leave a comment so I can add it to my personal collection.\n\n1-Role Assignment (Persona / Instruction Framing)\n2-Few-Shot Prompting\n3-Chain-of-Thought (CoT) Prompting\n4-Self-Consistency\n5-Scoring / Ranking\n6-Reflexion / Self-Critique\n7-Multi-Step Prompting\n8-Reframing / Style Transfer\n9-External Knowledge Grounding (RAG-style prompting)\n\nexamples: https://lnkd.in/dvUh5JnA\n\n\nhashtag\n#promptengineering \nhashtag\n#llm \nhashtag\n#cheatsheet",
+    "images": [],
+    "attachments": [
+      "https://lnkd.in/dvUh5JnA",
+      "https://github.com/fsystemweb/prompt-engineering-cheatsheet"
+    ],
+    "id": 38
+  },
+  {
+    "date": "4 meses",
+    "author": "Facundo",
+    "context": "💬 Español \nAl aplicar IA en un negocio, entran en juego diferentes técnicas (Prompt Engineering, RAG, Fine-tuning), cada una adaptable a distintas necesidades.\nCreo que lo importante es entender con qué recursos se cuenta en cada caso, sin subestimar las soluciones más simples. De hecho, combinarlas puede generar resultados excelentes.\n\n\n💬 English \nWhen applying AI in your business, different techniques come into play (Prompt Engineering, RAG, Fine-tuning), each adaptable to specific needs.\n I believe it’s key to understand the resources available in every case—without undervaluing simpler solutions. In fact, combining approaches can often deliver excellent results.\n\n📄 source: https://lnkd.in/e_rJSF5p\n\n\n\nhashtag\n#LLM \nhashtag\n#AI \nhashtag\n#ArtificialIntelligence \nhashtag\n#RAG \nhashtag\n#MachineLearning",
+    "images": [
+      "https://i.postimg.cc/BvKB24nN/39.jpg"
+    ],
+    "attachments": [
+      "https://lnkd.in/e_rJSF5p"
+    ],
+    "id": 39
+  },
+  {
+    "date": "4 meses",
+    "author": "Facundo",
+    "context": "He finalizado mi Máster en Inteligencia Artificial en la VIU - Universidad Internacional de Valencia",
+    "images": [],
+    "attachments": [],
+    "id": 40
+  },
+  {
+    "date": "5 meses",
+    "author": "Facundo",
+    "context": "💬 Español \nAlguna vez te preguntaste qué orientación política tienen los LLMs.\nHay varios estudios sobre el tema. Uno de los más recientes utiliza el test The Political Compass (un test popular y ampliamente usado), entre otros tests.\n\n\n💬 English \nHave you ever wondered what political orientation LLMs have?\nThere are several studies on this. One of the most recent uses the Political Compass test —a well-known and widely used tool— along with other tests.\n\n📄 Whitepaper source: https://lnkd.in/dstMK_kK\n🧭 Test website: https://lnkd.in/dTESt-24\n\nWhat do you think? Does it make sense to measure the “ideology” of an AI?\n\n\nhashtag\n#LLM \nhashtag\n#AI \nhashtag\n#ArtificialIntelligence \nhashtag\n#PoliticalCompass \nhashtag\n#AIEthics \nhashtag\n#MachineLearning",
+    "images": [
+      "https://i.postimg.cc/W4kw0T15/41.jpg"
+    ],
+    "attachments": [
+      "https://lnkd.in/dstMK_kK",
+      "https://lnkd.in/dTESt-24"
+    ],
+    "id": 41
+  },
+  {
+    "date": "5 meses",
+    "author": "Facundo",
+    "context": "🌐 Are AI models eating the internet?\n Epoch AI estimates there are about 300 trillion tokens of human-generated text available for training… but they could run out between 2026 and 2032 ⏳.\n That means we’ll need new ways to fuel LLMs 🤖.\n--\n¿Se están ‘comiendo’ internet los modelos de IA?\n Según un estudio de Epoch AI, hay unas 300 billones de tokens (datos) disponibles en internet para entrenar modelos de lenguaje… pero podrían agotarse entre 2026 y 2032 ⏳.\n Si todo sigue igual, habrá que buscar nuevas formas de mejorar los LLMs 🤖.\n\nSource: https://lnkd.in/dXz7H9bm\n\nhashtag\n#ArtificialIntelligence \nhashtag\n#AI \nhashtag\n#LLM",
+    "images": [
+      "https://i.postimg.cc/3wvF2Yxn/42.jpg"
+    ],
+    "attachments": [
+      "https://lnkd.in/dXz7H9bm"
+    ],
+    "id": 42
+  },
+  {
+    "date": "5 meses",
+    "author": "Facundo",
+    "context": "If you’re ever wondering “is there an AI for this?” 👉 https://lnkd.in/deeYMppH\nChances are, you’ll find it there.\n\n\nSi alguna vez te preguntas “existe una IA para esto?” 👉 https://lnkd.in/deeYMppH\nLo más probable es que la encuentres ahí.\n\n\nhashtag\n#AI \nhashtag\n#AITools \nhashtag\n#Tech \nhashtag\n#theresanaiforthat",
+    "images": [],
+    "attachments": [
+      "https://lnkd.in/deeYMppH",
+      "https://theresanaiforthat.com/"
+    ],
+    "id": 43
+  },
+  {
+    "date": "5 meses",
+    "author": "Facundo",
+    "context": "I’m excited to share a project I’ve been working on since completing my Master’s in AI.\n\nI created RAG Solutions, a SaaS platform designed to help businesses leverage AI for smarter document processing. It’s been a great learning experience, and I’m grateful to see the project come to life.\n\nYou can explore it here: https://lnkd.in/dzqPvtVK\n\nAnd watch a short demo here 🎥\n\nI’d really appreciate any feedback or thoughts from the community.\n\n\nhashtag\n#AI \nhashtag\n#SaaS \nhashtag\n#RAG \nhashtag\n#AIengineering \nhashtag\n#Entrepreneurship",
+    "images": [],
+    "attachments": [
+      "https://lnkd.in/dzqPvtVK"
+    ],
+    "id": 44
+  },
+  {
+    "date": "5 meses",
+    "author": "Facundo",
+    "context": "Estoy muy contento de poder compartir un proyecto en el que he estado trabajando desde que terminé mi Máster en IA.\n\nHe creado RAG Solutions, una plataforma SaaS que ayuda a las empresas a aprovechar la IA para el procesamiento inteligente de documentos. Ha sido una gran experiencia de aprendizaje y me alegra mucho ver cómo este proyecto empieza a hacerse realidad.\n\nPuedes verlo aquí: https://lnkd.in/dzqPvtVK\nY una breve demo aquí 🎥\n\nMe encantaría recibir vuestros comentarios o sugerencias.\n\n\nhashtag\n#AI \nhashtag\n#SaaS \nhashtag\n#AIEngineering \nhashtag\n#Innovación \nhashtag\n#RAG",
+    "images": [],
+    "attachments": [
+      "https://lnkd.in/dzqPvtVK"
+    ],
+    "id": 45
+  }
+]

@@ -9,7 +9,7 @@ A personal posts feed built with **Next.js 16** (App Router, TypeScript). Loads 
 - 🖼️ **Images** — lazy-loaded, with side-by-side layout for multi-image posts
 - 🔗 **Attachments** — clickable link buttons grouped per post
 - 📱 **Fully responsive** — mobile, tablet, and desktop layouts
-- ⚡ **Remote data** — posts fetched from JSONBin.io API
+- ⚡ **Local data** — posts read from `public/my_posts.json`
 
 ## Tech Stack
 
@@ -41,15 +41,14 @@ src/
 └── types/
     └── post.ts          # Post type definition
 public/
+├── my_posts.json        # Posts data
 └── personal_data.json   # Personal profile data
 ```
 
 ## Data Sources
 
 ### Posts Data
-Posts are loaded from a remote JSON bin hosted on [JSONBin.io](https://jsonbin.io). The application requires a valid `BIN_ID`, `API_KEY` and `ACCESS_KEY` to access the data.
-
-Each post follows the same shape as before:
+Posts are loaded from `public/my_posts.json`, an array of posts in this shape:
 
 ```json
 {
@@ -59,16 +58,6 @@ Each post follows the same shape as before:
   "images": ["https://..."],
   "attachments": ["https://..."]
 }
-```
-
-### Configuration
-
-Create a `.env.local` file in the root directory with your JSONBin.io credentials:
-
-```bash
-JSONBIN_BIN_ID=your_bin_id
-JSONBIN_API_KEY=your_api_key
-JSONBIN_ACCESS_KEY=your_access_key
 ```
 
 ### Personal Data
