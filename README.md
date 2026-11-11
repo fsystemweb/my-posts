@@ -48,7 +48,7 @@ public/
 ## Data Sources
 
 ### Posts Data
-Posts are loaded from `public/my_posts.json`, an array of posts in this shape:
+Posts are loaded from `public/my_posts.json` — add or edit posts by editing this file directly. It is an array of posts in this shape:
 
 ```json
 {
